@@ -1,0 +1,36 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Я,я,PRON,nsubj,[2],[],Case=Nom|Number=Sing|Person=First
+2,считаю,считать,VERB,ROOT,[],"[0, 17, 92]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+8,",",",",PUNCT,punct,"[17, 2]",[],
+10,что,что,SCONJ,mark,"[17, 2]",[],
+14,вы,вы,PRON,nsubj,"[17, 2]",[],Case=Nom|Number=Plur|Person=Second
+17,должны,должный,ADJ,ccomp,[2],"[8, 10, 14, 24]",Degree=Pos|Number=Plur|StyleVariant=Short
+24,взять,взять,VERB,xcomp,"[17, 2]","[30, 42, 82]",Aspect=Perf|VerbForm=Inf|Voice=Act
+30,меня,я,PRON,obj,"[24, 17, 2]",[],Case=Acc|Number=Sing|Person=First
+35,на,на,ADP,case,"[42, 24, 17, 2]",[],
+38,эту,этот,DET,det,"[42, 24, 17, 2]",[],Case=Acc|Gender=Fem|Number=Sing
+42,должность,должность,NOUN,obl,"[24, 17, 2]","[35, 38]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+51,",",",",PUNCT,punct,"[82, 24, 17, 2]",[],
+53,потому,потому,ADV,mark,"[82, 24, 17, 2]",[60],Degree=Pos
+60,что,что,SCONJ,fixed,"[53, 82, 24, 17, 2]",[],
+64,я,я,PRON,nsubj,"[82, 24, 17, 2]",[],Case=Nom|Number=Sing|Person=First
+66,дипломированный,дипломированный,ADJ,amod,"[82, 24, 17, 2]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+82,специалист,специалист,NOUN,advcl,"[24, 17, 2]","[51, 53, 64, 66]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+92,.,.,PUNCT,punct,[2],[],
+94,Без,без,ADP,case,[106],[],
+98,вредных,вредный,ADJ,amod,[106],[],Case=Gen|Degree=Pos|Number=Plur
+106,привычек,привычка,NOUN,ROOT,[],"[94, 98, 116, 136, 153, 178]",Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+114,",",",",PUNCT,punct,"[116, 106]",[],
+116,коммуникабельность,коммуникабельность,NOUN,conj,[106],[114],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+134,",",",",PUNCT,punct,"[136, 106]",[],
+136,ответственность,ответственность,NOUN,conj,[106],[134],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+151,",",",",PUNCT,punct,"[153, 106]",[],
+153,знание,знание,NOUN,conj,[106],"[151, 173]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+160,иностранного,иностранный,ADJ,amod,"[173, 153, 106]",[],Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+173,языка,язык,NOUN,nmod,"[153, 106]",[160],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+178,.,.,PUNCT,punct,[106],[],
+180,Опыт,опыт,NOUN,ROOT,[],"[185, 197]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+185,работы,работа,NOUN,nmod,[180],[194],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+192,5,5,NUM,nummod,"[194, 185, 180]",[],
+194,лет,год,NOUN,nmod,"[185, 180]",[192],Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+197,.,.,PUNCT,punct,[180],[],

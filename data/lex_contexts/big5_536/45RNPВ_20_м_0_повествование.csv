@@ -1,0 +1,119 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Привет,привет,NOUN,ROOT,[],"[8, 15]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+6,",",",",PUNCT,punct,"[8, 0]",[],
+8,дружище,дружище,VERB,parataxis,[0],[6],Aspect=Perf|Mood=Imp|Number=Sing|Person=Second|VerbForm=Fin|Voice=Act
+15,!,!,PUNCT,punct,[0],[],
+17,Как,как,ADV,mark,[26],[],Degree=Pos
+21,Ваше,ваш,DET,nsubj,[26],[],Case=Nom|Gender=Neut|Number=Sing
+26,ничего,ничто,PRON,ROOT,[],"[17, 21, 32]",Case=Gen
+32,?,?,PUNCT,punct,[26],[],
+34,Недавно,недавно,ADV,advmod,[42],[],Degree=Pos
+42,шел,идти,VERB,ROOT,[],"[34, 49, 58, 69]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+46,по,по,ADP,case,"[49, 42]",[],
+49,городу,город,NOUN,obl,[42],[46],Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
+56,и,и,CCONJ,cc,"[58, 42]",[],
+58,слышу,слышать,VERB,conj,[42],"[56, 65]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+63,:,:,PUNCT,punct,"[65, 58, 42]",[],
+65,едет,ехать,VERB,parataxis,"[58, 42]",[63],Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+69,.,.,PUNCT,punct,[42],[],
+71,«,"""",PUNCT,punct,[72],[],
+72,Скай,скай,PROPN,ROOT,[],"[71, 76, 82, 89, 97]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+76,»,"""",PUNCT,punct,[72],[],
+77,",",",",PUNCT,punct,"[82, 72]",[],
+79,34,34,NUM,nummod,"[82, 72]",[],
+82,кузов,кузов,NOUN,conj,[72],"[77, 79]",Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+87,",",",",PUNCT,punct,"[89, 72]",[],
+89,турбовый,турбовый,ADJ,conj,[72],[87],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+97,.,.,PUNCT,punct,[72],[],
+99,Он,он,PRON,nsubj,[109],[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+102,просто,просто,PART,advmod,[109],[],
+109,плюет,плевать,VERB,ROOT,[],"[99, 102, 118, 144, 167]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+115,на,на,ADP,case,"[118, 109]",[],
+118,поток,поток,NOUN,obl,[109],"[115, 124]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+124,машин,машина,NOUN,nmod,"[118, 109]",[],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+129,",",",",PUNCT,punct,"[144, 109]",[],
+131,в,в,ADP,case,"[139, 144, 109]",[],
+133,левом,левый,ADJ,amod,"[139, 144, 109]",[],Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
+139,ряду,ряд,NOUN,obl,"[144, 109]","[131, 133]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+144,топит,топить,VERB,conj,[109],"[129, 139, 150, 162]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+150,педальку,педальку,NOUN,obj,"[144, 109]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+159,до,до,ADP,case,"[162, 144, 109]",[],
+162,конца,конец,NOUN,obl,"[144, 109]",[159],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+167,.,.,PUNCT,punct,[109],[],
+169,Я,я,PRON,nsubj,[178],[],Case=Nom|Number=Sing|Person=First
+171,просто,просто,PART,advmod,[178],[],
+178,увидел,увидеть,VERB,ROOT,[],"[169, 171, 185, 191, 227]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+185,его,он,PRON,obj,[178],[],Case=Acc|Gender=Masc|Number=Sing|Person=Third
+189,и,и,CCONJ,cc,"[191, 178]",[],
+191,подумал,подумать,VERB,conj,[178],"[189, 215]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+198,",",",",PUNCT,punct,"[215, 191, 178]",[],
+200,что,что,SCONJ,mark,"[215, 191, 178]",[],
+204,я,я,PRON,nsubj,"[215, 191, 178]",[],Case=Nom|Number=Sing|Person=First
+206,б,б,AUX,advmod,"[215, 191, 178]",[],Mood=Cnd
+208,на,на,ADP,case,"[211, 215, 191, 178]",[],
+211,нем,он,PRON,obl,"[215, 191, 178]",[208],Case=Loc|Gender=Masc|Number=Sing|Person=Third
+215,покатался,покататься,VERB,ccomp,"[191, 178]","[198, 200, 204, 206, 211, 225]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+225,бы,бы,AUX,aux,"[215, 191, 178]",[],Mood=Cnd
+227,.,.,PUNCT,punct,[178],[],
+229,Такой,такой,DET,det,"[235, 251]",[],Case=Nom|Gender=Masc|Number=Sing
+235,агрегат,агрегат,NOUN,nsubj,[251],[229],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+242,",",",",PUNCT,punct,[251],[],
+244,просто,просто,PART,advmod,[251],[],
+251,закачаешься,закачаешься,VERB,ROOT,[],"[235, 242, 244, 262]",Aspect=Perf|VerbForm=Inf|Voice=Mid
+262,.,.,PUNCT,punct,[251],[],
+264,А,а,CCONJ,cc,[293],[],
+266,буквально,буквально,ADV,advmod,"[276, 293]",[],Degree=Pos
+276,недавно,недавно,ADV,advmod,[293],[266],Degree=Pos
+284,в,в,ADP,case,"[286, 293]",[],
+286,городе,город,NOUN,obl,[293],[284],Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+293,пошел,пойти,VERB,ROOT,[],"[264, 276, 286, 299, 303]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+299,снег,снег,NOUN,nsubj,[293],[],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+303,.,.,PUNCT,punct,[293],[],
+305,Думал,думать,VERB,ROOT,[],"[334, 383]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+310,",",",",PUNCT,punct,"[334, 305]",[],
+312,что,что,SCONJ,mark,"[324, 334, 305]",[],
+316,вот,вот,PART,advmod,"[320, 324, 334, 305]",[],
+320,она,она,PRON,nsubj,"[324, 334, 305]",[316],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+324,весна,весна,NOUN,nsubj,"[334, 305]","[312, 320]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+330,уже,уже,ADV,advmod,"[334, 305]",[],Degree=Pos
+334,здесь,здесь,ADV,ccomp,[305],"[310, 324, 330, 344, 349]",Degree=Pos
+339,",",",",PUNCT,punct,"[344, 334, 305]",[],
+341,ан,ан,PART,nsubj,"[344, 334, 305]",[],
+344,нет,нет,VERB,conj,"[334, 305]","[339, 341]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+347,",",",",PUNCT,punct,"[349, 334, 305]",[],
+349,придется,прийтись,VERB,conj,"[334, 305]","[347, 362]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+358,еще,еще,ADV,advmod,"[362, 349, 334, 305]",[],Degree=Pos
+362,подождать,подождать,VERB,csubj,"[349, 334, 305]","[358, 373]",Aspect=Perf|VerbForm=Inf|Voice=Act
+371,",",",",PUNCT,punct,"[373, 362, 349, 334, 305]",[],
+373,померзнуть,помёрзнуть,VERB,conj,"[362, 349, 334, 305]",[371],Aspect=Perf|VerbForm=Inf|Voice=Act
+383,.,.,PUNCT,punct,[305],[],
+385,Что,что,PRON,nsubj,[391],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+389,у,у,ADP,case,[391],[],
+391,тебя,ты,PRON,ROOT,[],"[385, 389, 395, 396, 405]",Case=Gen|Number=Sing|Person=Second
+395,-,-,PRON,discourse,[391],[],Case=Gen
+396,то,то,PRON,nsubj,[391],[399],Case=Gen
+399,нового,новый,ADJ,amod,"[396, 391]",[],Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
+405,?,?,PUNCT,punct,[391],[],
+407,Как,как,ADV,mark,[411],[],Degree=Pos
+411,вообще,вообще,ADV,ROOT,[],"[407, 418, 422]",Degree=Pos
+418,дела,дело,NOUN,nsubj,[411],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+422,?,?,PUNCT,punct,[411],[],
+424,Скоро,скоро,ADV,advmod,[430],[],Degree=Pos
+430,увидимся,увидеться,VERB,ROOT,[],"[424, 440, 446]",Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Mid
+438,",",",",PUNCT,punct,"[440, 430]",[],
+440,братка,братка,NOUN,parataxis,[430],[438],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+446,.,.,PUNCT,punct,[430],[],
+448,Счастливо,счастливо,ADV,ROOT,[],[457],Degree=Pos
+457,!,!,PUNCT,punct,[448],[],
+459,Встретимся,встретиться,VERB,xcomp,[482],[470],Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Mid
+470,лично,лично,ADV,advmod,"[459, 482]",[],Degree=Pos
+476,и,и,CCONJ,cc,"[478, 482]",[],
+478,все,все,PRON,obj,[482],[476],Animacy=Anim|Case=Nom|Number=Plur
+482,обсудим,обсудить,VERB,ROOT,[],"[459, 478, 509, 519]",Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+489,",",",",PUNCT,punct,"[509, 482]",[],
+491,в,в,ADP,case,"[493, 509, 482]",[],
+493,письме,письмо,NOUN,obl,"[509, 482]",[491],Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
+500,всего,всего,PRON,obj,"[509, 482]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+506,не,не,PART,advmod,"[509, 482]",[],Polarity=Neg
+509,расскажешь,рассказать,VERB,conj,[482],"[489, 493, 500, 506]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Second|Tense=Fut|VerbForm=Fin|Voice=Act
+519,.,.,PUNCT,punct,[482],[],

@@ -1,0 +1,64 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Я,я,PRON,nsubj,[2],[],Case=Nom|Number=Sing|Person=First
+2,пожертвую,пожертвовать,VERB,ROOT,[],"[0, 12, 24, 35, 51, 78]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+12,анонимно,анонимно,ADV,advmod,[2],[],Degree=Pos
+21,по,по,ADP,case,"[24, 2]",[],
+24,частям,часть,NOUN,obl,[2],[21],Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
+31,все,весь,DET,det,"[35, 2]",[],Animacy=Inan|Case=Acc|Number=Plur
+35,деньги,деньга,NOUN,obj,[2],[31],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+42,в,в,ADP,case,"[51, 2]",[],
+44,разные,разный,ADJ,amod,"[51, 2]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+51,фонды,фонд,NOUN,obl,[2],"[42, 44, 74]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+57,по,по,ADP,case,"[74, 51, 2]",[],
+60,всему,весь,DET,det,"[74, 51, 2]",[],Case=Dat|Gender=Masc|Number=Sing
+66,Земному,земной,ADJ,amod,"[74, 51, 2]",[],Case=Dat|Degree=Pos|Gender=Masc|Number=Sing
+74,шару,шар,NOUN,nmod,"[51, 2]","[57, 60, 66]",Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
+78,.,.,PUNCT,punct,[2],[],
+80,На,на,ADP,case,"[83, 99]",[],
+83,остальное,остальное,ADJ,obl,[99],[80],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+93,я,я,PRON,nsubj,[99],[],Case=Nom|Number=Sing|Person=First
+95,сам,сам,ADJ,acl,[99],[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+99,заработаю,заработать,VERB,ROOT,[],"[83, 93, 95, 108]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+108,.,.,PUNCT,punct,[99],[],
+110,И,и,CCONJ,cc,[136],[],
+112,потом,потом,ADV,advmod,[136],[117],Degree=Pos
+117,",",",",PUNCT,punct,"[112, 136]",[],
+119,этих,этот,DET,det,"[124, 136]",[],Case=Gen|Number=Plur
+124,денег,деньга,NOUN,nsubj,[136],[119],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+130,будет,будет,AUX,cop,[136],[],Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+136,мало,мало,ADV,ROOT,[],"[110, 112, 124, 130, 158, 166]",Degree=Pos
+140,",",",",PUNCT,punct,"[158, 136]",[],
+142,и,и,CCONJ,cc,"[158, 136]",[],
+144,всем,весь,DET,det,"[149, 158, 136]",[],Case=Dat|Number=Plur
+149,людям,человек,NOUN,iobj,"[158, 136]",[144],Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
+155,не,не,PART,advmod,"[158, 136]",[],Polarity=Neg
+158,поможешь,помочь,VERB,conj,[136],"[140, 142, 149, 155]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Second|Tense=Fut|VerbForm=Fin|Voice=Act
+166,.,.,PUNCT,punct,[136],[],
+168,Большая,больший,ADJ,amod,"[176, 188]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+176,часть,часть,NOUN,nsubj,[188],"[168, 182]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+182,денег,деньга,NOUN,nmod,"[176, 188]",[],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+188,достанется,достаться,VERB,ROOT,[],"[176, 199, 256, 257]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+199,фонду,фонд,NOUN,iobj,[188],[217],Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
+205,для,для,ADP,case,"[217, 199, 188]",[],
+209,больных,больной,ADJ,amod,"[217, 199, 188]",[],Case=Gen|Degree=Pos|Number=Plur
+217,детей,ребёнок,NOUN,nmod,"[199, 188]","[205, 209, 224]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+222,",",",",PUNCT,punct,"[224, 217, 199, 188]",[],
+224,больных,больных,NOUN,acl,"[217, 199, 188]","[222, 245]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+232,церебральным,церебральный,ADJ,amod,"[245, 224, 217, 199, 188]",[],Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
+245,параличом,паралич,NOUN,obl,"[224, 217, 199, 188]",[232],Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
+254,",",",",PUNCT,punct,"[256, 188]",[],
+256,т,т,INTJ,parataxis,[188],[254],
+257,.,.,PUNCT,punct,[188],[],
+259,к,к,ADP,ROOT,[],[260],
+260,.,.,PUNCT,punct,[259],[],
+262,дети,ребёнок,NOUN,nsubj,[267],[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
+267,страдают,страдать,VERB,ROOT,[],"[262, 281, 296, 324, 333]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+276,этим,этот,DET,det,"[281, 267]",[],Case=Ins|Gender=Neut|Number=Sing
+281,заболеванием,заболевание,NOUN,obl,[267],[276],Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
+294,с,с,ADP,case,"[296, 267]",[],
+296,рождения,рождение,NOUN,obl,[267],[294],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+305,и,и,CCONJ,cc,"[324, 267]",[],
+307,очень,очень,ADV,advmod,"[313, 324, 267]",[],Degree=Pos
+313,мучительно,мучительно,ADV,advmod,"[324, 267]",[307],Degree=Pos
+324,переносят,переносить,VERB,conj,[267],"[305, 313]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+333,.,.,PUNCT,punct,[267],[],

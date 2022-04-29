@@ -1,0 +1,45 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Первое,первый,ADJ,nsubj,[67],"[12, 39]",Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+6,",",",",PUNCT,punct,"[12, 0, 67]",[],
+8,что,что,PRON,nsubj,"[12, 0, 67]",[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+12,пришло,прийти,VERB,acl:relcl,"[0, 67]","[6, 8, 25]",Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+19,в,в,ADP,case,"[25, 12, 0, 67]",[],
+21,мою,мой,DET,det,"[25, 12, 0, 67]",[],Case=Acc|Gender=Fem|Number=Sing
+25,голову,голова,NOUN,obl,"[12, 0, 67]","[19, 21]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+31,",",",",PUNCT,punct,"[39, 0, 67]",[],
+33,после,после,ADP,case,"[39, 0, 67]",[],
+39,просмотра,просмотр,NOUN,conj,"[0, 67]","[31, 33, 54, 61]",Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+49,этой,этот,DET,det,"[54, 39, 0, 67]",[],Case=Gen|Gender=Fem|Number=Sing
+54,картины,картина,NOUN,nmod,"[39, 0, 67]",[49],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+61,",",",",PUNCT,punct,"[39, 0, 67]",[],
+63,это,это,PRON,nsubj,[67],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+67,то,то,PRON,ROOT,[],"[0, 63, 82, 175]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+69,",",",",PUNCT,punct,"[82, 67]",[],
+71,что,что,SCONJ,mark,"[82, 67]",[],
+75,на,на,ADP,case,"[78, 82, 67]",[],
+78,ней,она,PRON,obl,"[82, 67]",[75],Case=Loc|Gender=Fem|Number=Sing|Person=Third
+82,изображен,изобразить,VERB,acl,[67],"[69, 71, 78, 100]",Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+92,молодой,молодой,ADJ,amod,"[100, 82, 67]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+100,парень,парень,NOUN,nsubj:pass,"[82, 67]","[92, 120]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+106,",",",",PUNCT,punct,"[120, 100, 82, 67]",[],
+108,на,на,ADP,case,"[111, 120, 100, 82, 67]",[],
+111,которого,которого,PRON,obl,"[120, 100, 82, 67]",[108],Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
+120,смотрит,смотреть,VERB,acl:relcl,"[100, 82, 67]","[106, 111, 128, 137, 139, 152]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+128,колдунья,колдунья,NOUN,nsubj,"[120, 100, 82, 67]",[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+137,-,-,NOUN,nsubj,"[120, 100, 82, 67]",[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+139,старуха,старуха,NOUN,nsubj,"[120, 100, 82, 67]",[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+146,",",",",PUNCT,punct,"[152, 120, 100, 82, 67]",[],
+148,как,как,SCONJ,case,"[152, 120, 100, 82, 67]",[],
+152,Баба,баба,PROPN,parataxis,"[120, 100, 82, 67]","[146, 148, 157, 163]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+157,Яга,яга,PROPN,flat:name,"[152, 120, 100, 82, 67]",[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+161,и,и,CCONJ,cc,"[163, 152, 120, 100, 82, 67]",[],
+163,Иван,иван,PROPN,conj,"[152, 120, 100, 82, 67]","[161, 168]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+168,Царевич,царевич,PROPN,flat:name,"[163, 152, 120, 100, 82, 67]",[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+175,.,.,PUNCT,punct,[67],[],
+177,Больше,больше,NUM,nsubj,[205],[191],Degree=Cmp
+184,других,других,ADJ,amod,"[191, 177, 205]",[],Case=Gen|Degree=Pos|Number=Plur
+191,мыслей,мысль,NOUN,obl,"[177, 205]",[184],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+198,у,у,ADP,case,"[200, 205]",[],
+200,меня,я,PRON,obl,[205],[198],Case=Gen|Number=Sing|Person=First
+205,нет,нет,VERB,ROOT,[],"[177, 200, 208]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+208,.,.,PUNCT,punct,[205],[],

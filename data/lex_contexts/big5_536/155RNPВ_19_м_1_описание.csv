@@ -1,0 +1,70 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[3, 11]",[],
+3,картине,картина,NOUN,obl,[11],[0],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+11,происходит,происходить,VERB,ROOT,[],"[3, 22, 81]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+22,противостояние,противостояние,NOUN,nsubj,[11],[42],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+37,двух,два,NUM,nummod,"[42, 22, 11]",[],Case=Gen
+42,мужчин,мужчина,NOUN,nmod,"[22, 11]","[37, 60]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+48,",",",",PUNCT,punct,"[60, 42, 22, 11]",[],
+50,или,или,CCONJ,cc,"[60, 42, 22, 11]",[],
+54,даже,даже,PART,advmod,"[60, 42, 22, 11]",[],
+59,«,"""",PUNCT,punct,"[60, 42, 22, 11]",[],
+60,Молодости,молодость,NOUN,conj,"[42, 22, 11]","[48, 50, 54, 59, 72, 80]",Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+70,и,и,CCONJ,cc,"[72, 60, 42, 22, 11]",[],
+72,Старости,старость,PROPN,conj,"[60, 42, 22, 11]",[70],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+80,»,"""",PUNCT,punct,"[60, 42, 22, 11]",[],
+81,.,.,PUNCT,punct,[11],[],
+83,На,на,ADP,case,"[86, 90]",[],
+86,ней,она,PRON,obl,[90],[83],Case=Loc|Gender=Fem|Number=Sing|Person=Third
+90,изображен,изобразить,VERB,ROOT,[],"[86, 108, 139]",Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+100,молодой,молодой,ADJ,amod,"[108, 90]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+108,мужчина,мужчина,NOUN,nsubj:pass,[90],"[100, 125]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+116,и,и,CCONJ,cc,"[125, 108, 90]",[],
+118,старый,старый,ADJ,amod,"[125, 108, 90]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+125,дед,дед,NOUN,conj,"[108, 90]","[116, 118, 131]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+129,в,в,ADP,case,"[131, 125, 108, 90]",[],
+131,балахоне,балахон,NOUN,nmod,"[125, 108, 90]",[129],Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+139,.,.,PUNCT,punct,[90],[],
+141,К,к,ADP,case,"[148, 157]",[],
+143,этой,этот,DET,det,"[148, 157]",[],Case=Dat|Gender=Fem|Number=Sing
+148,ситуации,ситуация,NOUN,obl,[157],"[141, 143]",Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+157,привело,привести,VERB,ROOT,[],"[148, 172, 187, 195, 221]",Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+165,долгая,долгий,ADJ,amod,"[172, 157]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+172,разлука,разлука,NOUN,nsubj,[157],[165],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+179,",",",",PUNCT,punct,"[187, 157]",[],
+181,и,и,CCONJ,cc,"[187, 157]",[],
+183,они,они,PRON,nsubj,"[187, 157]",[],Case=Nom|Number=Plur|Person=Third
+187,сидят,сидеть,VERB,conj,[157],"[179, 181, 183]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+193,и,и,CCONJ,cc,"[195, 157]",[],
+195,общаются,общаться,VERB,conj,[157],"[193, 207]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+204,на,на,ADP,case,"[207, 195, 157]",[],
+207,тему,тема,NOUN,obl,"[195, 157]","[204, 212]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+212,поколений,поколение,NOUN,nmod,"[207, 195, 157]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+221,.,.,PUNCT,punct,[157],[],
+223,Мысли,мысль,NOUN,ROOT,[],"[238, 244, 263, 311]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+229,молодого,молодой,ADJ,amod,"[238, 223]",[],Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+238,парня,парень,NOUN,nmod,[223],[229],Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+244,пойти,пойти,VERB,nmod,[223],[250],Aspect=Perf|VerbForm=Inf|Voice=Act
+250,прогуляться,прогуляться,VERB,xcomp,"[244, 223]",[],Aspect=Perf|VerbForm=Inf|Voice=Mid
+261,",",",",PUNCT,punct,"[263, 223]",[],
+263,мысли,мысль,NOUN,appos,[223],"[261, 277, 287]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+269,второго,второй,ADJ,amod,"[277, 263, 223]",[],Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+277,персонажа,персонаж,NOUN,nmod,"[263, 223]",[269],Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+287,выпить,выпить,VERB,nmod,"[263, 223]","[294, 301]",Aspect=Perf|VerbForm=Inf|Voice=Act
+294,воды,вода,NOUN,obj,"[287, 263, 223]",[],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+299,и,и,CCONJ,cc,"[301, 287, 263, 223]",[],
+301,лечь,лечь,VERB,conj,"[287, 263, 223]","[299, 306]",Aspect=Perf|VerbForm=Inf|Voice=Mid
+306,спать,спать,VERB,xcomp,"[301, 287, 263, 223]",[],Aspect=Imp|VerbForm=Inf|Voice=Act
+311,.,.,PUNCT,punct,[223],[],
+313,Дальше,дальше,ADV,advmod,[327],[],Degree=Cmp
+320,парень,парень,NOUN,nsubj,[327],[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+327,пойдет,пойти,VERB,ROOT,[],"[313, 320, 334, 350, 375]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+334,гулять,гулять,VERB,xcomp,[327],[],Aspect=Imp|VerbForm=Inf|Voice=Act
+341,а,а,CCONJ,cc,"[350, 327]",[],
+343,второй,второй,ADJ,nsubj,"[350, 327]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+350,выпьет,выпить,VERB,conj,[327],"[341, 343, 357, 364]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+357,воды,вода,NOUN,obj,"[350, 327]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+362,и,и,CCONJ,cc,"[364, 350, 327]",[],
+364,ляжет,лечь,VERB,conj,"[350, 327]","[362, 370]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+370,спать,спать,VERB,xcomp,"[364, 350, 327]",[],Aspect=Imp|VerbForm=Inf|Voice=Act
+375,.,.,PUNCT,punct,[327],[],

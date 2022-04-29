@@ -1,0 +1,40 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Если,если,SCONJ,mark,"[10, 50]",[],
+5,бы,бы,AUX,aux,"[10, 50]",[],Mood=Cnd
+8,я,я,PRON,nsubj,"[10, 50]",[],Case=Nom|Number=Sing|Person=First
+10,выиграла,выиграть,VERB,advcl,[50],"[0, 5, 8, 19, 26]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+19,миллион,миллион,NOUN,obj,"[10, 50]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+26,",",",",PUNCT,punct,"[10, 50]",[],
+28,я,я,PRON,nsubj,[50],[],Case=Nom|Number=Sing|Person=First
+30,бы,бы,AUX,aux,[50],[],Mood=Cnd
+33,непременно,непременно,ADV,advmod,"[44, 50]",[],Degree=Pos
+44,очень,очень,ADV,advmod,[50],[33],Degree=Pos
+50,обрадовалась,обрадоваться,VERB,ROOT,[],"[10, 28, 30, 44, 64, 134]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+62,",",",",PUNCT,punct,"[64, 50]",[],
+64,подумала,подумать,VERB,conj,[50],"[62, 82]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+72,",",",",PUNCT,punct,"[82, 64, 50]",[],
+74,куда,куда,ADV,advmod,"[82, 64, 50]",[],Degree=Pos
+79,бы,бы,AUX,aux,"[82, 64, 50]",[],Mood=Cnd
+82,можно,можно,ADV,ccomp,"[64, 50]","[72, 74, 79, 88, 93, 96]",Degree=Pos
+88,было,было,AUX,cop,"[82, 64, 50]",[],Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+93,бы,бы,AUX,aux,"[82, 64, 50]",[],Mood=Cnd
+96,вложить,вложить,VERB,csubj,"[82, 64, 50]","[108, 128]",Aspect=Perf|VerbForm=Inf|Voice=Act
+104,эти,этот,DET,det,"[108, 96, 82, 64, 50]",[],Animacy=Inan|Case=Acc|Number=Plur
+108,деньги,деньга,NOUN,obj,"[96, 82, 64, 50]",[104],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+115,в,в,ADP,case,"[128, 96, 82, 64, 50]",[],
+117,какой,какой,DET,det,"[128, 96, 82, 64, 50]",[],Case=Loc|Gender=Fem|Number=Sing
+122,-,-,DET,det,"[128, 96, 82, 64, 50]",[],Case=Acc|Gender=Masc|Number=Sing
+123,либо,либо,DET,det,"[128, 96, 82, 64, 50]",[],Case=Acc|Gender=Masc|Number=Sing
+128,бизнес,бизнес,NOUN,obl,"[96, 82, 64, 50]","[115, 117, 122, 123]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+134,.,.,PUNCT,punct,[50],[],
+136,Например,например,ADV,parataxis,[146],[144],Degree=Pos
+144,",",",",PUNCT,punct,"[136, 146]",[],
+146,открыла,открыть,VERB,ROOT,[],"[136, 154, 157, 162, 163, 168, 188]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+154,бы,бы,AUX,aux,[146],[],Mood=Cnd
+157,какой,какой,DET,obj,[146],[],Case=Acc|Gender=Masc|Number=Sing
+162,-,-,DET,obj,[146],[],Case=Acc|Gender=Masc|Number=Sing
+163,нить,нить,NOUN,obl,[146],[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+168,магазин,магазин,NOUN,obj,[146],[180],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+176,или,или,CCONJ,cc,"[180, 168, 146]",[],
+180,ресторан,ресторан,NOUN,conj,"[168, 146]",[176],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+188,.,.,PUNCT,punct,[146],[],

@@ -1,0 +1,38 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Конечно,конечно,ADV,parataxis,[14],"[8, 10]",Degree=Pos
+8,же,же,PART,advmod,"[0, 14]",[],
+10,",",",",PUNCT,punct,"[0, 14]",[],
+12,я,я,PRON,nsubj,[14],[],Case=Nom|Number=Sing|Person=First
+14,расстроюсь,расстроиться,VERB,ROOT,[],"[0, 12, 42, 164]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Mid
+24,",",",",PUNCT,punct,"[42, 14]",[],
+26,потому,потому,ADV,mark,"[42, 14]",[33],Degree=Pos
+33,что,что,SCONJ,fixed,"[26, 42, 14]",[],
+37,я,я,PRON,nsubj,"[42, 14]",[],Case=Nom|Number=Sing|Person=First
+39,не,не,PART,advmod,"[42, 14]",[],Polarity=Neg
+42,умею,уметь,VERB,advcl,[14],"[24, 26, 37, 39, 47, 89]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+47,распоряжаться,распоряжаться,VERB,xcomp,"[42, 14]",[68],Aspect=Imp|VerbForm=Inf|Voice=Mid
+61,такими,такой,DET,det,"[68, 47, 42, 14]",[],Case=Ins|Number=Plur
+68,деньгами,деньга,NOUN,iobj,"[47, 42, 14]",[61],Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
+76,",",",",PUNCT,punct,"[89, 42, 14]",[],
+78,и,и,CCONJ,cc,"[89, 42, 14]",[],
+80,поскорее,поскорее,ADV,advmod,"[89, 42, 14]",[],Degree=Cmp
+89,постараюсь,постараться,VERB,conj,"[42, 14]","[76, 78, 80, 107]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Mid
+100,от,от,ADP,case,"[103, 107, 89, 42, 14]",[],
+103,них,они,PRON,obl,"[107, 89, 42, 14]",[100],Case=Gen|Number=Plur|Person=Third
+107,избавиться,избавиться,VERB,xcomp,"[89, 42, 14]","[103, 132]",Aspect=Perf|VerbForm=Inf|Voice=Mid
+117,",",",",PUNCT,punct,"[132, 107, 89, 42, 14]",[],
+119,например,например,ADV,advmod,"[132, 107, 89, 42, 14]",[127],Degree=Pos
+127,",",",",PUNCT,punct,"[119, 132, 107, 89, 42, 14]",[],
+129,на,на,ADP,case,"[132, 107, 89, 42, 14]",[],
+132,благотворительность,благотворительность,NOUN,obl,"[107, 89, 42, 14]","[117, 119, 129, 152, 157, 158]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+152,какую,какой,DET,det,"[132, 107, 89, 42, 14]",[],Case=Acc|Gender=Fem|Number=Sing
+157,-,-,DET,det,"[132, 107, 89, 42, 14]",[],Case=Acc|Gender=Fem|Number=Sing
+158,нибудь,нибудь,DET,det,"[132, 107, 89, 42, 14]",[],Case=Acc|Gender=Fem|Number=Sing
+164,.,.,PUNCT,punct,[14],[],
+166,P.,p.,X,ROOT,[],[169],Foreign=Yes
+169,S.,S.,PUNCT,punct,[166],[],
+172,Бесплатный,бесплатный,ADJ,amod,"[183, 196]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+183,сыр,сыр,NOUN,nsubj,[196],[172],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+187,только,только,PART,advmod,[196],[],
+194,в,в,ADP,case,[196],[],
+196,мышеловке,мышеловка,NOUN,ROOT,[],"[183, 187, 194]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing

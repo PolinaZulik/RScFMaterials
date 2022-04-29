@@ -1,0 +1,27 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[8, 19]",[],
+3,этой,этот,DET,det,"[8, 19]",[],Case=Loc|Gender=Fem|Number=Sing
+8,картине,картина,NOUN,obl,[19],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+16,мы,мы,PRON,nsubj,[19],[],Case=Nom|Number=Plur|Person=First
+19,видим,видеть,VERB,ROOT,[],"[8, 16, 27, 33]",Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+25,2,2,NUM,nummod:gov,"[27, 19]",[],
+27,женщин,женщина,NOUN,obj,[19],[25],Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur
+33,.,.,PUNCT,punct,[19],[],
+35,Я,я,PRON,nsubj,[37],[],Case=Nom|Number=Sing|Person=First
+37,думаю,думать,VERB,ROOT,[],"[35, 52, 107, 115]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+42,",",",",PUNCT,punct,"[52, 37]",[],
+44,что,что,SCONJ,mark,"[52, 37]",[],
+48,это,это,PRON,nsubj,"[52, 37]",[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+52,женщина,женщина,NOUN,ccomp,[37],"[42, 44, 48, 62]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+60,в,в,ADP,case,"[62, 52, 37]",[],
+62,молодости,молодость,NOUN,nmod,"[52, 37]","[60, 74]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+72,и,и,CCONJ,cc,"[74, 62, 52, 37]",[],
+74,старости,старость,NOUN,conj,"[62, 52, 37]",[72],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+82,",",",",PUNCT,punct,"[92, 107, 37]",[],
+84,как,как,SCONJ,mark,"[92, 107, 37]",[],
+88,мне,я,PRON,iobj,"[92, 107, 37]",[],Case=Dat|Number=Sing|Person=First
+92,кажется,казаться,VERB,parataxis,"[107, 37]","[82, 84, 88, 99]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+99,",",",",PUNCT,punct,"[92, 107, 37]",[],
+101,очень,очень,ADV,advmod,"[107, 37]",[],Degree=Pos
+107,грустная,грустный,ADJ,ccomp,[37],"[92, 101]",Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+115,.,.,PUNCT,punct,[37],[],

@@ -1,0 +1,38 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,По,по,ADP,case,"[9, 28]",[],
+3,моему,мой,DET,det,"[9, 28]",[],Case=Dat|Gender=Neut|Number=Sing
+9,мнению,мнение,NOUN,parataxis,[28],"[0, 3, 15]",Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing
+15,",",",",PUNCT,punct,"[9, 28]",[],
+17,на,на,ADP,case,"[20, 28]",[],
+20,картине,картина,NOUN,obl,[28],[17],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+28,изображена,изобразить,VERB,ROOT,[],"[9, 20, 46, 85]",Aspect=Perf|Gender=Fem|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+39,старая,старый,ADJ,amod,"[46, 28]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+46,женщина,женщина,NOUN,nsubj:pass,[28],"[39, 55]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+53,",",",",PUNCT,punct,"[55, 46, 28]",[],
+55,вспоминающая,вспоминать,VERB,acl,"[46, 28]","[53, 76]",Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+68,о,о,ADP,case,"[76, 55, 46, 28]",[],
+70,своей,свой,DET,det,"[76, 55, 46, 28]",[],Case=Loc|Gender=Fem|Number=Sing
+76,молодости,молодость,NOUN,obl,"[55, 46, 28]","[68, 70]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+85,.,.,PUNCT,punct,[28],[],
+87,Может,мочь,VERB,parataxis,[104],"[93, 97]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+93,быть,быть,VERB,xcomp,"[87, 104]",[],Aspect=Imp|VerbForm=Inf|Voice=Act
+97,",",",",PUNCT,punct,"[87, 104]",[],
+99,даже,даже,PART,advmod,[104],[],
+104,хочет,хотеть,VERB,ROOT,[],"[87, 99, 110, 194]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+110,вернуть,вернуть,VERB,xcomp,[104],"[121, 169]",Aspect=Perf|VerbForm=Inf|Voice=Act
+118,то,тот,DET,det,"[121, 110, 104]",[],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+121,время,время,NOUN,obj,"[110, 104]","[118, 143]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+126,",",",",PUNCT,punct,"[143, 121, 110, 104]",[],
+128,когда,когда,SCONJ,mark,"[143, 121, 110, 104]",[],
+134,она,она,PRON,nsubj,"[143, 121, 110, 104]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+138,была,была,AUX,cop,"[143, 121, 110, 104]",[],Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+143,молодой,молодой,ADJ,acl,"[121, 110, 104]","[126, 128, 134, 138, 153]",Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+151,и,и,CCONJ,cc,"[153, 143, 121, 110, 104]",[],
+153,красивой,красивый,ADJ,conj,"[143, 121, 110, 104]",[151],Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+161,",",",",PUNCT,punct,"[169, 110, 104]",[],
+163,когда,когда,SCONJ,mark,"[169, 110, 104]",[],
+169,можно,можно,ADV,advcl,"[110, 104]","[161, 163, 175, 188]",Degree=Pos
+175,было,было,AUX,cop,"[169, 110, 104]",[],Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+180,столько,столько,ADV,advmod,"[188, 169, 110, 104]",[],Degree=Pos
+188,успеть,успеть,VERB,csubj,"[169, 110, 104]",[180],Aspect=Perf|VerbForm=Inf|Voice=Act
+194,!,!,PUNCT,punct,[104],[],

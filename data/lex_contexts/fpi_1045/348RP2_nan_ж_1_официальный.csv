@@ -1,0 +1,59 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Маринин,маринин,PROPN,ROOT,[],"[8, 25]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+8,Кирилл,кирилл,PROPN,appos,[0],[15],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+15,Витальевич,виталиевич,PROPN,flat:name,"[8, 0]",[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+25,.,.,PUNCT,punct,[0],[],
+27,Высшее,высокий,ADJ,amod,[34],[],Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+34,образование,образование,NOUN,ROOT,[],"[27, 47, 76]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+45,:,:,PUNCT,punct,"[47, 34]",[],
+47,МГУ,мгу,PROPN,parataxis,[34],"[45, 67]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+50,",",",",PUNCT,punct,"[67, 47, 34]",[],
+52,филологический,филологический,ADJ,amod,"[67, 47, 34]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+67,факультет,факультет,NOUN,conj,"[47, 34]","[50, 52]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+76,.,.,PUNCT,punct,[34],[],
+78,Мои,мой,DET,det,[89],[],Case=Nom|Number=Plur
+82,личные,личный,ADJ,amod,[89],[],Case=Nom|Degree=Pos|Number=Plur
+89,качества,качество,NOUN,ROOT,[],"[78, 82, 99, 131, 160, 173, 186]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+97,:,:,PUNCT,punct,"[99, 89]",[],
+99,коммуникабельность,коммуникабельность,NOUN,parataxis,[89],"[97, 118]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+118,грамотность,грамотность,NOUN,nmod,"[99, 89]",[],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+129,;,;,PUNCT,punct,"[131, 89]",[],
+131,целеустремленность,целеустремлённость,NOUN,conj,[89],[129],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+149,;,;,PUNCT,punct,"[160, 89]",[],
+151,красивый,красивый,ADJ,amod,"[160, 89]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+160,голос,голос,NOUN,conj,[89],"[149, 151, 167]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+165,",",",",PUNCT,punct,"[167, 160, 89]",[],
+167,тело,тело,NOUN,conj,"[160, 89]",[165],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+171,;,;,PUNCT,punct,"[173, 89]",[],
+173,чувство,чувство,NOUN,conj,[89],"[171, 181]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+181,стиля,стиль,NOUN,nmod,"[173, 89]",[],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+186,.,.,PUNCT,punct,[89],[],
+188,Я,я,PRON,nsubj,[190],[],Case=Nom|Number=Sing|Person=First
+190,претендую,претендовать,VERB,ROOT,[],"[188, 203, 224, 268]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+200,на,на,ADP,case,"[203, 190]",[],
+203,должность,должность,NOUN,obl,[190],"[200, 213]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+213,ведущего,ведущего,NOUN,nmod,"[203, 190]",[],Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+222,в,в,ADP,case,"[224, 190]",[],
+224,программе,программа,NOUN,obl,[190],"[222, 242, 262]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+234,"""","""",PUNCT,punct,"[242, 224, 190]",[],
+235,Модный,модный,ADJ,amod,"[242, 224, 190]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+242,приговор,приговор,NOUN,appos,"[224, 190]","[234, 235, 250]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+250,"""","""",PUNCT,punct,"[242, 224, 190]",[],
+252,на,на,ADP,case,"[262, 224, 190]",[],
+255,Первом,первый,ADJ,amod,"[262, 224, 190]",[],Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
+262,канале,канал,NOUN,nmod,"[224, 190]","[252, 255]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+268,.,.,PUNCT,punct,[190],[],
+270,Я,я,PRON,nsubj,[272],[],Case=Nom|Number=Sing|Person=First
+272,считаю,считать,VERB,ROOT,[],"[270, 284, 342]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+278,",",",",PUNCT,punct,"[284, 272]",[],
+280,что,что,SCONJ,mark,"[284, 272]",[],
+284,смогу,смочь,VERB,ccomp,[272],"[278, 280, 290]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+290,переодевать,переодевать,VERB,xcomp,"[284, 272]","[311, 321]",Aspect=Imp|VerbForm=Inf|Voice=Act
+302,стрёмных,стрёмный,ADJ,amod,"[311, 290, 284, 272]",[],Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur
+311,дамочек,дамочка,NOUN,obj,"[290, 284, 272]",[302],Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur
+319,и,и,CCONJ,cc,"[321, 290, 284, 272]",[],
+321,делать,делать,VERB,conj,"[290, 284, 272]","[319, 331, 335]",Aspect=Imp|VerbForm=Inf|Voice=Act
+328,из,из,ADP,case,"[331, 321, 290, 284, 272]",[],
+331,них,они,PRON,obl,"[321, 290, 284, 272]",[328],Case=Gen|Number=Plur|Person=Third
+335,Королев,королёв,PROPN,obj,"[321, 290, 284, 272]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+342,!,!,PUNCT,punct,[272],[],

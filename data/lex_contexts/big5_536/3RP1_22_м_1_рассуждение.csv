@@ -1,0 +1,47 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Сначала,сначала,ADV,advmod,[10],[],Degree=Pos
+8,я,я,PRON,nsubj,[10],[],Case=Nom|Number=Sing|Person=First
+10,куплю,купить,VERB,ROOT,[],"[0, 8, 16, 29, 51]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+16,себе,себя,PRON,iobj,[10],[],Case=Dat
+21,большой,большой,ADJ,amod,"[29, 10]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+29,дом,дом,NOUN,obj,[10],"[21, 36, 45]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+33,за,за,ADP,case,"[36, 29, 10]",[],
+36,городом,город,NOUN,nmod,"[29, 10]",[33],Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
+43,",",",",PUNCT,punct,"[45, 29, 10]",[],
+45,машину,машина,NOUN,conj,"[29, 10]",[43],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+51,.,.,PUNCT,punct,[10],[],
+53,Возможно,возможно,ADV,parataxis,[63],[61],Degree=Pos
+61,",",",",PUNCT,punct,"[53, 63]",[],
+63,положу,положить,VERB,ROOT,[],"[53, 70, 86, 94, 102]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+70,часть,часть,NOUN,obj,[63],[76],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+76,средств,средство,NOUN,nmod,"[70, 63]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+84,в,в,ADP,case,"[86, 63]",[],
+86,банк,банк,NOUN,obl,[63],[84],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+91,на,на,ADP,case,"[94, 63]",[],
+94,хранение,хранение,NOUN,obl,[63],[91],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+102,.,.,PUNCT,punct,[63],[],
+104,Куплю,куплю,VERB,ROOT,[],"[110, 123, 129]",Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act
+110,себе,себя,PRON,iobj,[104],[],Case=Dat
+115,дорогую,дорогой,ADJ,amod,"[123, 104]",[],Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
+123,одежду,одежда,NOUN,obj,[104],[115],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+129,.,.,PUNCT,punct,[104],[],
+131,Часть,часть,NOUN,nsubj,[145],[137],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+137,средств,средство,NOUN,nmod,"[131, 145]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+145,можно,можно,ADV,ROOT,[],"[131, 151, 191]",Degree=Pos
+151,вложить,вложить,VERB,csubj,[145],[166],Aspect=Perf|VerbForm=Inf|Voice=Act
+159,в,в,ADP,case,"[166, 151, 145]",[],
+161,свое,свой,DET,det,"[166, 151, 145]",[],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+166,дело,дело,NOUN,obl,"[151, 145]","[159, 161, 172]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+170,:,:,PUNCT,punct,"[172, 166, 151, 145]",[],
+172,открыть,открыть,VERB,parataxis,"[166, 151, 145]","[170, 185]",Aspect=Perf|VerbForm=Inf|Voice=Act
+180,свой,свой,DET,det,"[185, 172, 166, 151, 145]",[],Case=Acc|Gender=Masc|Number=Sing
+185,бизнес,бизнес,NOUN,obj,"[172, 166, 151, 145]",[180],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+191,.,.,PUNCT,punct,[145],[],
+193,Также,также,ADV,advmod,[222],[],Degree=Pos
+199,часть,часть,NOUN,nsubj,[222],[214],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+205,денежных,денежный,ADJ,amod,"[214, 199, 222]",[],Case=Gen|Degree=Pos|Number=Plur
+214,средств,средство,NOUN,nmod,"[199, 222]",[205],Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+222,пойдут,пойти,VERB,ROOT,[],"[193, 199, 232, 251]",Aspect=Perf|Mood=Ind|Number=Plur|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+229,на,на,ADP,case,"[232, 222]",[],
+232,благотворительность,благотворительность,NOUN,obl,[222],[229],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+251,.,.,PUNCT,punct,[222],[],

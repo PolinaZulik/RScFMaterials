@@ -1,0 +1,27 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[8, 16]",[],
+3,этой,этот,DET,det,"[8, 16]",[],Case=Loc|Gender=Fem|Number=Sing
+8,картине,картина,NOUN,obl,[16],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+16,изображены,изобразить,VERB,ROOT,[],"[8, 27, 102]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+27,мужчина,мужчина,NOUN,nsubj:pass,[16],[44],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+34,",",",",PUNCT,punct,"[44, 27, 16]",[],
+36,который,который,PRON,nsubj,"[44, 27, 16]",[],Case=Nom|Gender=Masc|Number=Sing
+44,обрабатывает,обрабатывать,VERB,acl:relcl,"[27, 16]","[34, 36, 57, 73]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+57,землю,земля,NOUN,obj,"[44, 27, 16]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+62,",",",",PUNCT,punct,"[73, 44, 27, 16]",[],
+64,а,а,CCONJ,cc,"[73, 44, 27, 16]",[],
+66,за,за,ADP,case,"[69, 73, 44, 27, 16]",[],
+69,ним,он,PRON,obl,"[73, 44, 27, 16]",[66],Case=Ins|Gender=Masc|Number=Sing|Person=Third
+73,наблюдает,наблюдать,VERB,conj,"[44, 27, 16]","[62, 64, 69, 98]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+83,его,его,PRON,nmod,"[98, 73, 44, 27, 16]",[],Case=Gen|Gender=Masc|Number=Sing|Person=Third
+87,беременная,беременный,ADJ,amod,"[98, 73, 44, 27, 16]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+98,жена,жена,NOUN,nsubj,"[73, 44, 27, 16]","[83, 87]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+102,.,.,PUNCT,punct,[16],[],
+104,Мимо,мимо,ADV,advmod,[109],[],Degree=Pos
+109,проходила,проходить,VERB,ROOT,[],"[104, 119, 146]",Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+119,соседка,соседка,NOUN,nsubj,[109],[130],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+127,из,из,ADP,case,"[130, 119, 109]",[],
+130,школы,школа,NOUN,nmod,"[119, 109]","[127, 138]",Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+136,с,с,ADP,case,"[138, 130, 119, 109]",[],
+138,книжками,книжка,NOUN,nmod,"[130, 119, 109]",[136],Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
+146,.,.,PUNCT,punct,[109],[],

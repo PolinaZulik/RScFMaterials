@@ -1,0 +1,47 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[3, 11]",[],
+3,картине,картина,NOUN,obl,[11],[0],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+11,изображены,изобразить,VERB,ROOT,[],"[3, 22, 46]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+22,мужчина,мужчина,NOUN,nsubj:pass,[11],[39],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+30,и,и,CCONJ,cc,"[39, 22, 11]",[],
+32,старая,старый,ADJ,amod,"[39, 22, 11]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+39,женщина,женщина,NOUN,conj,"[22, 11]","[30, 32]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+46,.,.,PUNCT,punct,[11],[],
+48,По,по,ADV,advmod,[64],[],Degree=Pos
+50,-,-,ADV,parataxis,[64],[],Degree=Pos
+51,видимому,видимому,ADV,advmod,[64],[],Degree=Pos
+60,это,это,PRON,nsubj,[64],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+64,сын,сын,NOUN,ROOT,[],"[48, 50, 51, 60, 70, 74]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+68,и,и,CCONJ,cc,"[70, 64]",[],
+70,мать,мать,NOUN,conj,[64],[68],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+74,.,.,PUNCT,punct,[64],[],
+76,Они,они,PRON,nsubj,[83],[],Case=Nom|Number=Plur|Person=Third
+80,не,не,PART,advmod,[83],[],Polarity=Neg
+83,виделись,видеться,VERB,ROOT,[],"[76, 80, 98, 103]",Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid
+92,очень,очень,ADV,advmod,"[98, 83]",[],Degree=Pos
+98,давно,давно,ADV,advmod,[83],[92],Degree=Pos
+103,.,.,PUNCT,punct,[83],[],
+105,Мама,мама,NOUN,nsubj,[110],[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+110,постарела,постареть,VERB,ROOT,[],"[105, 121, 142]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+119,",",",",PUNCT,punct,"[121, 110]",[],
+121,истосковалась,истосковаться,VERB,conj,[110],"[119, 138]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+135,по,по,ADP,case,"[138, 121, 110]",[],
+138,сыну,сын,NOUN,obl,"[121, 110]",[135],Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing
+142,.,.,PUNCT,punct,[110],[],
+144,Но,но,CCONJ,cc,[150],[],
+147,он,он,PRON,nsubj,[150],[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+150,вынужден,вынужденный,ADJ,ROOT,[],"[144, 147, 159, 163, 228]",Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short
+159,был,был,AUX,cop,[150],[],Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+163,уехать,уехать,VERB,xcomp,[150],"[180, 191]",Aspect=Perf|VerbForm=Inf|Voice=Act
+170,на,на,ADP,case,"[180, 163, 150]",[],
+173,долгое,долгий,ADJ,amod,"[180, 163, 150]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+180,время,время,NOUN,obl,"[163, 150]","[170, 173]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+185,",",",",PUNCT,punct,"[191, 163, 150]",[],
+187,для,для,ADP,case,"[191, 163, 150]",[],
+191,того,того,PRON,obl,"[163, 150]","[185, 187, 202]",Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+196,чтобы,чтобы,SCONJ,mark,"[202, 191, 163, 150]",[],
+202,заработать,заработать,VERB,advcl,"[191, 163, 150]","[196, 213, 223]",Aspect=Perf|VerbForm=Inf|Voice=Act
+213,деньги,деньга,NOUN,obj,"[202, 191, 163, 150]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+220,на,на,ADP,case,"[223, 202, 191, 163, 150]",[],
+223,жизнь,жизнь,NOUN,obl,"[202, 191, 163, 150]",[220],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+228,.,.,PUNCT,punct,[150],[],

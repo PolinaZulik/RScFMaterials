@@ -1,0 +1,20 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[3, 11]",[],
+3,картине,картина,NOUN,obl,[11],[0],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+11,изображен,изобразить,VERB,ROOT,[],"[3, 21, 43]",Aspect=Perf|Gender=Masc|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+21,внук,внук,NOUN,nsubj:pass,[11],[35],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+26,со,со,ADP,case,"[35, 21, 11]",[],
+29,своей,свой,DET,det,"[35, 21, 11]",[],Case=Ins|Gender=Fem|Number=Sing
+35,бабушкой,бабушка,NOUN,nmod,"[21, 11]","[26, 29]",Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+43,.,.,PUNCT,punct,[11],[],
+45,По,по,ADP,case,"[51, 56]",[],
+48,ее,её,DET,det,"[51, 56]",[],
+51,лицу,лицо,NOUN,obl,[56],"[45, 48]",Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing
+56,видно,видно,ADV,ROOT,[],"[51, 71, 92]",Degree=Pos
+61,",",",",PUNCT,punct,"[71, 56]",[],
+63,что,что,SCONJ,mark,"[71, 56]",[],
+67,она,она,PRON,nsubj,"[71, 56]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+71,гордится,гордиться,VERB,ccomp,[56],"[61, 63, 67, 86]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+80,своим,свой,DET,det,"[86, 71, 56]",[],Case=Ins|Gender=Masc|Number=Sing
+86,внуком,внук,NOUN,obl,"[71, 56]",[80],Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+92,.,.,PUNCT,punct,[56],[],

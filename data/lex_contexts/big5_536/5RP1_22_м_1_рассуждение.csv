@@ -1,0 +1,47 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Пошел,пойти,VERB,ROOT,[],"[6, 18, 35, 55]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+6,бы,бы,AUX,aux,[0],[],Mood=Cnd
+9,в,в,ADP,case,"[18, 0]",[],
+11,лучший,хороший,ADJ,amod,"[18, 0]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+18,ресторан,ресторан,NOUN,obl,[0],"[9, 11, 27]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+27,города,город,NOUN,nmod,"[18, 0]",[],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+33,",",",",PUNCT,punct,"[35, 0]",[],
+35,заказал,заказать,VERB,conj,[0],"[33, 43]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+43,то,то,PRON,obj,"[35, 0]",[51],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+45,",",",",PUNCT,punct,"[51, 43, 35, 0]",[],
+47,что,что,PRON,obj,"[51, 43, 35, 0]",[],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+51,хочу,хотеть,VERB,acl,"[43, 35, 0]","[45, 47]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+55,.,.,PUNCT,punct,[0],[],
+57,Потом,потом,ADV,advmod,[63],[],Degree=Pos
+63,отправился,отправиться,VERB,ROOT,[],"[57, 74, 93, 101, 113]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+74,бы,бы,AUX,aux,[63],[],Mood=Cnd
+77,в,в,ADP,case,"[93, 63]",[],
+79,автомобильный,автомобильный,ADJ,amod,"[93, 63]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+93,салон,салон,NOUN,obl,[63],"[77, 79]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+99,и,и,CCONJ,cc,"[101, 63]",[],
+101,купил,купить,VERB,conj,[63],"[99, 107]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+107,машину,машина,NOUN,obj,"[101, 63]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+113,.,.,PUNCT,punct,[63],[],
+115,Купил,купить,VERB,ROOT,[],"[121, 124, 141, 163]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+121,бы,бы,AUX,aux,[115],[],Mood=Cnd
+124,коттедж,коттедж,NOUN,nsubj,[115],[132],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+132,этажа,этаж,NOUN,nmod,"[124, 115]",[],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+138,на,на,ADP,case,"[141, 115]",[],
+141,три,три,NUM,obl,[115],"[138, 147]",Animacy=Inan|Case=Acc
+145,с,с,ADP,case,"[147, 141, 115]",[],
+147,баней,баня,NOUN,nmod,"[141, 115]","[145, 154]",Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
+152,",",",",PUNCT,punct,"[154, 147, 141, 115]",[],
+154,бассейном,бассейн,NOUN,conj,"[147, 141, 115]",[152],Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
+163,.,.,PUNCT,punct,[115],[],
+165,Заказал,заказал,VERB,ROOT,[],"[173, 176, 183, 227]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+173,бы,бы,AUX,aux,[165],[],Mood=Cnd
+176,себе,себя,PRON,iobj,[165],[],Case=Dat
+181,в,в,ADP,case,"[183, 165]",[],
+183,коттедж,коттедж,NOUN,obl,[165],"[181, 191]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+191,людей,человек,NOUN,nmod,"[183, 165]",[217],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+196,",",",",PUNCT,punct,"[217, 191, 183, 165]",[],
+198,которые,которые,PRON,nsubj,"[217, 191, 183, 165]",[],Case=Nom|Number=Plur
+206,будут,будут,AUX,aux,"[217, 191, 183, 165]",[],Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+212,меня,я,PRON,obj,"[217, 191, 183, 165]",[],Case=Acc|Number=Sing|Person=First
+217,развлекать,развлекать,VERB,acl:relcl,"[191, 183, 165]","[196, 198, 206, 212]",Aspect=Imp|VerbForm=Inf|Voice=Act
+227,.,.,PUNCT,punct,[165],[],

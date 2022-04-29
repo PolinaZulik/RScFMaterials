@@ -1,0 +1,37 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[14, 22]",[],
+3,прекрасной,прекрасный,ADJ,amod,"[14, 22]",[],Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
+14,картине,картина,NOUN,obl,[22],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+22,изображена,изобразить,VERB,ROOT,[],"[14, 57, 82]",Aspect=Perf|Gender=Fem|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+33,древнегреческая,древнегреческий,ADJ,amod,"[57, 22]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+49,рабочая,рабочий,ADJ,amod,"[57, 22]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+57,сила,сила,NOUN,nsubj:pass,[22],"[33, 49, 76]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+62,с,с,ADP,case,"[76, 57, 22]",[],
+64,прекрасными,прекрасный,ADJ,amod,"[76, 57, 22]",[],Case=Ins|Degree=Pos|Number=Plur
+76,людьми,человек,NOUN,nmod,"[57, 22]","[62, 64]",Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur
+82,.,.,PUNCT,punct,[22],[],
+84,В,в,ADP,case,"[91, 100]",[],
+86,этой,этот,DET,det,"[91, 100]",[],Case=Loc|Gender=Fem|Number=Sing
+91,ситуации,ситуация,NOUN,obl,[100],"[84, 86]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+100,растет,расти,VERB,ROOT,[],"[91, 107, 117]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+107,земледелие,земледелие,NOUN,nsubj,[100],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+117,.,.,PUNCT,punct,[100],[],
+119,О,о,ADP,case,[121],[],
+121,желании,желание,NOUN,ROOT,[],"[119, 129, 135, 151]",Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
+129,людей,человек,NOUN,nmod,[121],[],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+135,вырастить,вырастить,VERB,nmod,[121],[145],Aspect=Perf|VerbForm=Inf|Voice=Act
+145,урожай,урожай,NOUN,obj,"[135, 121]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+151,.,.,PUNCT,punct,[121],[],
+153,В,в,ADP,case,"[165, 171]",[],
+155,последнее,последний,ADJ,amod,"[165, 171]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+165,время,время,NOUN,obl,[171],"[153, 155]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+171,произойдет,произойти,VERB,ROOT,[],"[165, 188, 226]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+182,самое,самое,ADJ,amod,"[188, 171]",[],Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+188,хорошее,хороший,ADJ,nsubj,[171],"[182, 207]",Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+195,",",",",PUNCT,punct,"[207, 188, 171]",[],
+197,когда,когда,SCONJ,mark,"[207, 188, 171]",[],
+203,они,они,PRON,nsubj,"[207, 188, 171]",[],Case=Nom|Number=Plur|Person=Third
+207,соберут,собрать,VERB,acl:relcl,"[188, 171]","[195, 197, 203, 220]",Aspect=Perf|Mood=Ind|Number=Plur|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+215,свой,свой,DET,det,"[220, 207, 188, 171]",[],Case=Acc|Gender=Masc|Number=Sing
+220,урожай,урожай,NOUN,obj,"[207, 188, 171]",[215],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+226,.,.,PUNCT,punct,[171],[],
