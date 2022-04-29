@@ -1,0 +1,45 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Привет,привет,NOUN,ROOT,[],"[7, 19, 23]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+7,Серега,серёга,PROPN,appos,[0],[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+13,",",",",PUNCT,punct,"[19, 0]",[],
+15,как,как,SCONJ,case,"[19, 0]",[],
+19,дела,дело,NOUN,acl,[0],"[13, 15]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+23,?,?,PUNCT,punct,[0],[],
+25,как,как,SCONJ,mark,[29],[],
+29,дети,ребёнок,NOUN,ROOT,[],"[25, 33]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
+33,?,?,PUNCT,punct,[29],[],
+35,Если,если,SCONJ,mark,"[45, 70]",[],
+40,тебе,ты,PRON,iobj,"[45, 70]",[],Case=Dat|Number=Sing|Person=Second
+45,интересно,интересный,ADJ,advcl,[70],"[35, 40, 54]",Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short
+54,",",",",PUNCT,punct,"[45, 70]",[],
+56,то,то,SCONJ,mark,[70],[],
+59,у,у,ADP,case,"[61, 70]",[],
+61,меня,я,PRON,obl,[70],[59],Case=Gen|Number=Sing|Person=First
+66,все,все,PRON,nsubj,[70],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+70,хорошо,хороший,ADJ,ROOT,[],"[45, 56, 61, 66, 76]",Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short
+76,.,.,PUNCT,punct,[70],[],
+78,Сняли,снять,VERB,ROOT,[],"[84, 105, 124]",Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
+84,квартиру,квартира,NOUN,obj,[78],[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+93,каждый,каждый,DET,det,"[100, 105, 78]",[],Case=Acc|Gender=Masc|Number=Sing
+100,день,день,NOUN,obl,"[105, 78]",[93],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+105,ходим,ходить,VERB,conj,[78],"[100, 113]",Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+111,в,в,ADP,case,"[113, 105, 78]",[],
+113,университет,университет,NOUN,obl,"[105, 78]",[111],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+124,.,.,PUNCT,punct,[78],[],
+126,Живем,жить,VERB,ROOT,[],"[132, 142, 161, 164, 179, 187]",Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+132,дружно,дружно,ADV,advmod,[126],[],Degree=Pos
+139,40,40,NUM,nummod,"[142, 126]",[],
+142,человек,человек,NOUN,nsubj,[126],"[139, 152]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+150,в,в,ADP,case,"[152, 142, 126]",[],
+152,квартире,квартира,NOUN,nmod,"[142, 126]",[150],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+161,мы,мы,PRON,nsubj,[126],[],Case=Nom|Number=Plur|Person=First
+164,вчетвером,вчетвером,ADV,advmod,[126],[],Degree=Pos
+174,и,и,CCONJ,cc,"[179, 126]",[],
+176,36,36,NUM,nummod,"[179, 126]",[],
+179,таджиков,таджик,NOUN,conj,[126],"[174, 176]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+187,.,.,PUNCT,punct,[126],[],
+189,В,в,ADP,case,"[191, 201]",[],
+191,общем,общий,ADJ,obl,[201],[189],Case=Loc|Degree=Pos|Gender=Neut|Number=Sing
+197,все,все,PRON,nsubj,[201],[],Animacy=Anim|Case=Nom|Number=Plur
+201,дружно,дружный,ADJ,ROOT,[],"[191, 197, 207]",Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short
+207,.,.,PUNCT,punct,[201],[],

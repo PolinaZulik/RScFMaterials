@@ -1,0 +1,62 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[8, 16]",[],
+3,этой,этот,DET,det,"[8, 16]",[],Case=Loc|Gender=Fem|Number=Sing
+8,картине,картина,NOUN,obl,[16],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+16,изображены,изобразить,VERB,ROOT,[],"[8, 29, 51, 85]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+27,2,2,NUM,nummod:gov,"[29, 16]",[],
+29,человека,человек,NOUN,nsubj:pass,[16],[27],Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+38,один,один,NUM,nummod,"[51, 16]",[],Case=Nom|Gender=Masc|Number=Sing
+43,молодой,молодой,ADJ,amod,"[51, 16]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+51,человек,человек,NOUN,nsubj:pass,[16],"[38, 43, 68]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+58,",",",",PUNCT,punct,"[68, 51, 16]",[],
+60,который,который,PRON,nsubj,"[68, 51, 16]",[],Case=Nom|Gender=Masc|Number=Sing
+68,смотрит,смотреть,VERB,acl:relcl,"[51, 16]","[58, 60, 79, 82, 83]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+76,на,на,ADP,case,"[79, 68, 51, 16]",[],
+79,что,что,PRON,obl,"[68, 51, 16]",[76],Case=Acc
+82,-,-,PRON,obl,"[68, 51, 16]",[],Case=Acc
+83,то,то,PRON,obl,"[68, 51, 16]",[],Case=Acc
+85,.,.,PUNCT,punct,[16],[],
+87,Второй,второй,ADJ,amod,"[94, 106]",[],Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+94,человек,человек,NOUN,nsubj,[106],[87],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+102,это,это,PRON,nsubj,[106],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+106,старушка,старушка,NOUN,ROOT,[],"[94, 102, 134, 144]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+114,",",",",PUNCT,punct,"[134, 106]",[],
+116,она,она,PRON,nsubj,"[134, 106]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+120,видимо,видимо,ADV,advmod,"[134, 106]",[],Degree=Pos
+127,что,что,PRON,obj,"[134, 106]",[],Case=Acc
+130,-,-,PRON,obj,"[134, 106]",[],Case=Acc
+131,то,то,PRON,obj,"[134, 106]",[],Case=Acc
+134,задумывает,задумывать,VERB,conj,[106],"[114, 116, 120, 127, 130, 131]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+144,.,.,PUNCT,punct,[106],[],
+146,Мысли,мысль,NOUN,nsubj,[174],[152],Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+152,людей,человек,NOUN,nmod,"[146, 174]",[],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+158,на,на,ADP,case,"[166, 174]",[],
+161,этой,этот,DET,det,"[166, 174]",[],Case=Loc|Gender=Fem|Number=Sing
+166,картине,картина,NOUN,obl,[174],"[158, 161]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+174,схожи,схожий,ADJ,ROOT,[],"[146, 166, 198, 204]",Degree=Pos|Number=Plur|StyleVariant=Short
+179,",",",",PUNCT,punct,"[198, 174]",[],
+181,они,они,PRON,nsubj,"[198, 174]",[],Case=Nom|Number=Plur|Person=Third
+185,оба,оба,NUM,obj,"[198, 174]",[],Case=Nom|Gender=Masc
+189,о,о,ADP,case,"[191, 198, 174]",[],
+191,чём,что,PRON,obl,"[198, 174]",[189],Case=Loc
+194,-,-,PRON,obl,"[198, 174]",[],Case=Loc
+195,то,то,PRON,obl,"[198, 174]",[],Case=Loc
+198,думают,думать,VERB,conj,[174],"[179, 181, 185, 191, 194, 195]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+204,.,.,PUNCT,punct,[174],[],
+206,Мне,я,PRON,iobj,[210],[],Case=Dat|Number=Sing|Person=First
+210,кажется,казаться,VERB,ROOT,[],"[206, 240, 295]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+217,",",",",PUNCT,punct,"[240, 210]",[],
+219,что,что,SCONJ,mark,"[240, 210]",[],
+223,дальше,дальше,ADV,advmod,"[240, 210]",[],Degree=Cmp
+230,ничего,ничто,PRON,nsubj,"[240, 210]",[],Case=Gen
+237,не,не,PART,advmod,"[240, 210]",[],Polarity=Neg
+240,произойдёт,произойти,VERB,ccomp,[210],"[217, 219, 223, 230, 237, 270]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act
+251,и,и,CCONJ,cc,"[270, 240, 210]",[],
+253,эти,этот,DET,det,"[257, 261, 270, 240, 210]",[],Case=Nom|Number=Plur
+257,оба,оба,NUM,nummod:gov,"[261, 270, 240, 210]",[253],Case=Nom|Gender=Masc
+261,человека,человек,NOUN,nsubj,"[270, 240, 210]",[257],Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+270,останутся,остаться,VERB,conj,"[240, 210]","[251, 261, 280]",Aspect=Perf|Mood=Ind|Number=Plur|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+280,стоять,стоять,VERB,xcomp,"[270, 240, 210]",[290],Aspect=Imp|VerbForm=Inf|Voice=Act
+287,на,на,ADP,case,"[290, 280, 270, 240, 210]",[],
+290,месте,место,NOUN,obl,"[280, 270, 240, 210]",[287],Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
+295,.,.,PUNCT,punct,[210],[],

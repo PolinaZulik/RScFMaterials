@@ -1,0 +1,55 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Когда,когда,SCONJ,mark,[8],[],
+6,я,я,PRON,nsubj,[8],[],Case=Nom|Number=Sing|Person=First
+8,получу,получить,VERB,ROOT,[],"[0, 6, 19, 25]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+15,эти,этот,DET,det,"[19, 8]",[],Animacy=Inan|Case=Acc|Number=Plur
+19,деньги,деньга,NOUN,obj,[8],[15],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+25,.,.,PUNCT,punct,[8],[],
+27,Я,я,PRON,nsubj,[29],[],Case=Nom|Number=Sing|Person=First
+29,куплю,купить,VERB,ROOT,[],"[27, 35, 40, 61, 100]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+35,себе,себя,PRON,iobj,[29],[],Case=Dat
+40,дом,дом,NOUN,obj,[29],"[45, 54]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+43,",",",",PUNCT,punct,"[45, 40, 29]",[],
+45,машину,машина,NOUN,conj,"[40, 29]",[43],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+52,и,и,CCONJ,cc,"[54, 40, 29]",[],
+54,бизнес,бизнес,NOUN,conj,"[40, 29]",[52],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+61,начну,начать,VERB,conj,[29],"[67, 87]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+67,делать,делать,VERB,xcomp,"[61, 29]",[],Aspect=Imp|VerbForm=Inf|Voice=Act
+73,",",",",PUNCT,punct,"[87, 61, 29]",[],
+75,а,а,CCONJ,cc,"[87, 61, 29]",[],
+77,остальные,остальные,ADJ,nsubj,"[87, 61, 29]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+87,положу,положить,VERB,conj,"[61, 29]","[73, 75, 77, 96]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+94,в,в,ADP,case,"[96, 87, 61, 29]",[],
+96,банк,банк,NOUN,obl,"[87, 61, 29]",[94],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+100,.,.,PUNCT,punct,[29],[],
+102,А,а,CCONJ,cc,[110],[],
+104,потом,потом,ADV,advmod,[110],[],Degree=Pos
+110,дам,дать,VERB,ROOT,[],"[102, 104, 124, 140]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+114,в,в,ADP,case,"[124, 110]",[],
+116,детские,детский,ADJ,amod,"[124, 110]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+124,дома,дом,NOUN,obl,[110],"[114, 116, 131]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+129,и,и,CCONJ,cc,"[131, 124, 110]",[],
+131,интернаты,интернат,NOUN,conj,"[124, 110]",[129],Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+140,.,.,PUNCT,punct,[110],[],
+142,Но,но,CCONJ,cc,[159],[],
+145,лучше,хороший,ADJ,advmod,[159],[151],Degree=Cmp
+151,всего,всего,PRON,obl,"[145, 159]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+157,я,я,PRON,nsubj,[159],[],Case=Nom|Number=Sing|Person=First
+159,начну,начать,VERB,ROOT,[],"[142, 145, 157, 165, 240, 253]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+165,делать,делать,VERB,xcomp,[159],[177],Aspect=Imp|VerbForm=Inf|Voice=Act
+172,свою,свой,DET,det,"[177, 165, 159]",[],Case=Acc|Gender=Fem|Number=Sing
+177,карьеру,карьера,NOUN,obj,"[165, 159]","[172, 187]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+185,и,и,CCONJ,cc,"[187, 177, 165, 159]",[],
+187,путешествие,путешествие,NOUN,conj,"[177, 165, 159]","[185, 202]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+199,по,по,ADP,case,"[202, 187, 177, 165, 159]",[],
+202,странам,страна,NOUN,nmod,"[187, 177, 165, 159]","[199, 220]",Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
+210,с,с,ADP,case,"[220, 202, 187, 177, 165, 159]",[],
+212,близким,близкий,ADJ,amod,"[220, 202, 187, 177, 165, 159]",[],Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
+220,человеком,человек,NOUN,nmod,"[202, 187, 177, 165, 159]","[210, 212]",Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+229,",",",",PUNCT,punct,"[240, 159]",[],
+231,а,а,CCONJ,cc,"[240, 159]",[],
+233,дальше,дальше,ADV,advmod,"[240, 159]",[],Degree=Cmp
+240,видно,видно,ADV,conj,[159],"[229, 231, 233, 246, 251]",Degree=Pos
+246,было,было,AUX,cop,"[240, 159]",[],Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+251,бы,бы,AUX,aux,"[240, 159]",[],Mood=Cnd
+253,.,.,PUNCT,punct,[159],[],

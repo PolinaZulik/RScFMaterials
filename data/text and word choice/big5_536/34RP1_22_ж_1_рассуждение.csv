@@ -1,0 +1,27 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Я,я,PRON,nsubj,[5],[],Case=Nom|Number=Sing|Person=First
+2,бы,бы,AUX,aux,[5],[],Mood=Cnd
+5,купила,купить,VERB,ROOT,[],"[0, 2, 21, 64]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+12,огромный,огромный,ADJ,amod,"[21, 5]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+21,дом,дом,NOUN,obj,[5],"[12, 27, 39]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+25,в,в,ADP,case,"[27, 21, 5]",[],
+27,Италии,италия,PROPN,nmod,"[21, 5]",[25],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+33,",",",",PUNCT,punct,"[39, 21, 5]",[],
+35,где,где,ADV,advmod,"[39, 21, 5]",[],Degree=Pos
+39,жило,жить,VERB,acl:relcl,"[21, 5]","[33, 35, 44, 55]",Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+44,бы,бы,AUX,aux,"[39, 21, 5]",[],Mood=Cnd
+47,все,весь,DET,det,"[55, 39, 21, 5]",[],Case=Nom|Gender=Neut|Number=Sing
+51,мое,мой,DET,det,"[55, 39, 21, 5]",[],Case=Nom|Gender=Neut|Number=Sing
+55,семейство,семейство,NOUN,nsubj,"[39, 21, 5]","[47, 51]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+64,.,.,PUNCT,punct,[5],[],
+66,Открыла,открыть,VERB,ROOT,[],"[74, 89, 119, 133]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+74,бы,бы,AUX,aux,[66],[],Mood=Cnd
+77,собственный,собственный,ADJ,amod,"[89, 66]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+89,ресторан,ресторан,NOUN,obj,[66],[77],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+97,",",",",PUNCT,punct,"[119, 66]",[],
+99,а,а,CCONJ,cc,"[119, 66]",[],
+101,оставшиеся,остаться,VERB,amod,"[112, 119, 66]",[],Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act
+112,деньги,деньга,NOUN,obj,"[119, 66]",[101],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+119,раздала,раздать,VERB,conj,[66],"[97, 99, 112, 127]",Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+127,бедным,бедный,NOUN,iobj,"[119, 66]",[],Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
+133,.,.,PUNCT,punct,[66],[],

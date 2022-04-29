@@ -1,0 +1,36 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Я,я,PRON,nsubj,[2],[],Case=Nom|Number=Sing|Person=First
+2,охренею,охренею,VERB,ROOT,[],"[0, 9]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+9,.,.,PUNCT,punct,[2],[],
+11,Буду,буду,AUX,aux,[16],[],Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+16,думать,думать,VERB,ROOT,[],"[11, 45, 62]",Aspect=Imp|VerbForm=Inf|Voice=Act
+22,",",",",PUNCT,punct,"[45, 16]",[],
+24,каким,какой,DET,det,"[30, 45, 16]",[],Case=Ins|Gender=Masc|Number=Sing
+30,образом,образ,NOUN,obl,"[45, 16]",[24],Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
+38,мне,я,PRON,iobj,"[45, 16]",[],Case=Dat|Number=Sing|Person=First
+42,их,они,PRON,obj,"[45, 16]",[],Animacy=Inan|Case=Acc|Number=Plur|Person=Third
+45,собираются,собираться,VERB,ccomp,[16],"[22, 30, 38, 42, 56]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+56,отдать,отдать,VERB,xcomp,"[45, 16]",[],Aspect=Perf|VerbForm=Inf|Voice=Act
+62,.,.,PUNCT,punct,[16],[],
+64,Позвоню,позвоню,NOUN,ROOT,[],"[72, 79, 168]",Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing
+72,маме,мама,NOUN,iobj,[64],[],Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
+77,и,и,CCONJ,cc,"[79, 64]",[],
+79,скажу,сказать,VERB,conj,[64],"[77, 93]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+84,",",",",PUNCT,punct,"[93, 79, 64]",[],
+86,что,что,SCONJ,mark,"[93, 79, 64]",[],
+90,мы,мы,PRON,nsubj,"[93, 79, 64]",[],Case=Nom|Number=Plur|Person=First
+93,сможем,смочь,VERB,ccomp,"[79, 64]","[84, 86, 90, 100]",Aspect=Perf|Mood=Ind|Number=Plur|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+100,сделать,сделать,VERB,xcomp,"[93, 79, 64]","[115, 124]",Aspect=Perf|VerbForm=Inf|Voice=Act
+108,крутой,крутой,ADJ,amod,"[115, 100, 93, 79, 64]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+115,ремонт,ремонт,NOUN,obj,"[100, 93, 79, 64]",[108],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+122,и,и,CCONJ,cc,"[124, 100, 93, 79, 64]",[],
+124,сменить,сменить,VERB,conj,"[100, 93, 79, 64]","[122, 132]",Aspect=Perf|VerbForm=Inf|Voice=Act
+132,обои,обои,NOUN,obj,"[124, 100, 93, 79, 64]",[139],Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+137,и,и,CCONJ,cc,"[139, 132, 124, 100, 93, 79, 64]",[],
+139,двери,дверь,NOUN,conj,"[132, 124, 100, 93, 79, 64]","[137, 154]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+144,",",",",PUNCT,punct,"[154, 139, 132, 124, 100, 93, 79, 64]",[],
+146,которые,которые,PRON,obj,"[154, 139, 132, 124, 100, 93, 79, 64]",[],Animacy=Inan|Case=Acc|Number=Plur
+154,подрал,подрать,VERB,acl:relcl,"[139, 132, 124, 100, 93, 79, 64]","[144, 146, 165]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+161,наш,наш,DET,det,"[165, 154, 139, 132, 124, 100, 93, 79, 64]",[],Case=Nom|Gender=Masc|Number=Sing
+165,кот,кот,NOUN,nsubj,"[154, 139, 132, 124, 100, 93, 79, 64]",[161],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+168,.,.,PUNCT,punct,[64],[],

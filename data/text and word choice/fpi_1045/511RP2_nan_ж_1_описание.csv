@@ -1,0 +1,61 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Тут,тут,ADV,ROOT,[],"[4, 19]",Degree=Pos
+4,вунук,вунук,NOUN,nsubj,[0],[12],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+10,и,и,CCONJ,cc,"[12, 4, 0]",[],
+12,бабушка,бабушка,NOUN,conj,"[4, 0]",[10],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+19,.,.,PUNCT,punct,[0],[],
+21,Бабушка,бабушка,NOUN,nsubj,[29],[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+29,раскажит,раскажит,VERB,ROOT,[],"[21, 44, 73]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+38,о,о,ADP,case,"[44, 29]",[],
+40,его,его,DET,det,"[44, 29]",[],
+44,прошлом,прошлое,NOUN,obl,[29],"[38, 40, 57]",Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
+51,",",",",PUNCT,punct,"[57, 44, 29]",[],
+53,как,как,SCONJ,mark,"[57, 44, 29]",[],
+57,был,был,AUX,acl,"[44, 29]","[51, 53, 61]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+61,папа,папа,NOUN,nsubj,"[57, 44, 29]",[68],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+66,с,с,ADP,case,"[68, 61, 57, 44, 29]",[],
+68,мамой,мама,NOUN,nmod,"[61, 57, 44, 29]",[66],Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+73,.,.,PUNCT,punct,[29],[],
+75,О,о,ADP,case,[81],[],
+77,его,его,DET,det,[81],[],
+81,детстве,детство,NOUN,ROOT,[],"[75, 77, 98, 131]",Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
+88,",",",",PUNCT,punct,"[98, 81]",[],
+90,что,что,SCONJ,mark,"[98, 81]",[],
+94,она,она,PRON,nsubj,"[98, 81]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+98,делала,делать,VERB,ccomp,[81],"[88, 90, 94, 116]",Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+105,когда,когда,SCONJ,mark,"[116, 98, 81]",[],
+111,внук,внук,NOUN,nsubj,"[116, 98, 81]",[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+116,зделала,зделала,VERB,advcl,"[98, 81]","[105, 111, 124]",Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+124,плохова,плохова,PROPN,obj,"[116, 98, 81]",[],Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
+131,.,.,PUNCT,punct,[81],[],
+133,И,и,CCONJ,cc,[139],[],
+135,тут,тут,ADV,advmod,[139],[],Degree=Pos
+139,видно,видно,ADV,ROOT,[],"[133, 135, 157, 172]",Degree=Pos
+145,что,что,SCONJ,mark,"[157, 139]",[],
+149,мальчик,мальчик,NOUN,nsubj,"[157, 139]",[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+157,смотрит,смотреть,VERB,ccomp,[139],"[145, 149, 165]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+165,девочку,девочка,NOUN,obj,"[157, 139]",[],Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
+172,.,.,PUNCT,punct,[139],[],
+174,Он,он,PRON,nsubj,[200],[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+177,влюолюн,влюолюн,ADV,advmod,[200],[192],Degree=Pos
+185,и,и,CCONJ,cc,"[192, 177, 200]",[],
+187,этот,этот,DET,det,"[192, 177, 200]",[],Case=Nom|Gender=Masc|Number=Sing
+192,женщина,женщина,NOUN,conj,"[177, 200]","[185, 187]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+200,расказывают,расказывают,VERB,ROOT,[],"[174, 177, 214, 234, 275]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+212,о,о,ADP,case,"[214, 200]",[],
+214,нее,нее,PRON,obl,[200],[212],Case=Acc|Gender=Fem|Number=Sing|Person=Third
+217,",",",",PUNCT,punct,"[234, 200]",[225],
+219,какая,какой,DET,det,"[225, 217, 234, 200]",[],Case=Nom|Gender=Fem|Number=Sing
+225,она,она,PRON,case,"[217, 234, 200]",[219],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+228,",",",",PUNCT,punct,"[234, 200]",[],
+230,что,что,PRON,nsubj,"[234, 200]",[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+234,нравится,нравиться,VERB,parataxis,[200],"[217, 228, 230, 243, 251]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+243,ее,она,PRON,nsubj,"[234, 200]",[],Case=Acc|Gender=Fem|Number=Sing|Person=Third
+245,",",",",PUNCT,punct,"[251, 234, 200]",[],
+247,как,как,SCONJ,mark,"[251, 234, 200]",[],
+251,завойват,завойват,NOUN,advcl,"[234, 200]","[245, 247, 263]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+260,ее,её,DET,det,"[263, 251, 234, 200]",[],
+263,сердца,сердце,NOUN,obj,"[251, 234, 200]","[260, 272]",Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+270,и,и,CCONJ,cc,"[272, 263, 251, 234, 200]",[],
+272,т.д,т.д,PROPN,conj,"[263, 251, 234, 200]",[270],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+275,.,.,PUNCT,punct,[200],[],

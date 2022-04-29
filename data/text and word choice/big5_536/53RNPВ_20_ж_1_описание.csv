@@ -1,0 +1,43 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[3, 11]",[],
+3,картине,картина,NOUN,obl,[11],[0],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+11,изображены,изобразить,VERB,ROOT,[],"[3, 22, 32]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+22,мать,мать,NOUN,nsubj:pass,[11],[29],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+27,и,и,CCONJ,cc,"[29, 22, 11]",[],
+29,сын,сын,NOUN,conj,"[22, 11]",[27],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+32,.,.,PUNCT,punct,[11],[],
+34,По,по,ADP,case,"[40, 48]",[],
+37,ее,её,DET,det,"[40, 48]",[],
+40,взгляду,взгляд,NOUN,obl,[48],"[34, 37]",Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
+48,видно,видно,ADV,ROOT,[],"[40, 72, 117]",Degree=Pos
+53,",",",",PUNCT,punct,"[72, 48]",[],
+55,что,что,SCONJ,mark,"[72, 48]",[],
+59,она,она,PRON,nsubj,"[72, 48]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+63,о,о,ADP,case,"[65, 72, 48]",[],
+65,чем,что,PRON,obl,"[72, 48]",[63],Case=Loc
+68,-,-,PRON,obl,"[72, 48]",[],Case=Loc
+69,то,то,PRON,obl,"[72, 48]",[],Case=Loc
+72,сожалеет,сожалеть,VERB,ccomp,[48],"[53, 55, 59, 65, 68, 69, 90]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+80,",",",",PUNCT,punct,"[90, 72, 48]",[],
+82,а,а,CCONJ,cc,"[90, 72, 48]",[],
+84,он,он,PRON,nsubj,"[90, 72, 48]",[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+87,не,не,PART,advmod,"[90, 72, 48]",[],Polarity=Neg
+90,прислушивается,прислушиваться,VERB,conj,"[72, 48]","[80, 82, 84, 87, 110]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+105,к,к,ADP,case,"[110, 90, 72, 48]",[],
+107,ее,её,DET,det,"[110, 90, 72, 48]",[],
+110,советам,совет,NOUN,obl,"[90, 72, 48]","[105, 107]",Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur
+117,.,.,PUNCT,punct,[48],[],
+119,Сын,сын,NOUN,nsubj,[131],[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+122,",",",",PUNCT,punct,"[124, 131]",[],
+124,видно,видно,ADV,parataxis,[131],"[122, 129]",Degree=Pos
+129,",",",",PUNCT,punct,"[124, 131]",[],
+131,желает,желать,VERB,ROOT,[],"[119, 124, 138, 160]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+138,избежать,избежать,VERB,xcomp,[131],[152],Aspect=Perf|VerbForm=Inf|Voice=Act
+147,этой,этот,DET,det,"[152, 138, 131]",[],Case=Gen|Gender=Fem|Number=Sing
+152,ситуации,ситуация,NOUN,obj,"[138, 131]",[147],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+160,.,.,PUNCT,punct,[131],[],
+162,Он,он,PRON,nsubj,[165],[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+165,чувствует,чувствовать,VERB,ROOT,[],"[162, 180, 184]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+175,свою,свой,DET,det,"[180, 165]",[],Case=Acc|Gender=Fem|Number=Sing
+180,вину,вина,NOUN,obj,[165],[175],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+184,.,.,PUNCT,punct,[165],[],

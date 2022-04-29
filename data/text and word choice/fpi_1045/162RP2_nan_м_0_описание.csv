@@ -1,0 +1,74 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[8, 18]",[],
+3,этой,этот,DET,det,"[8, 18]",[],Case=Loc|Gender=Fem|Number=Sing
+8,картине,картина,NOUN,obl,[18],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+16,я,я,PRON,nsubj,[18],[],Case=Nom|Number=Sing|Person=First
+18,наблюдаю,наблюдать,VERB,ROOT,[],"[8, 16, 32, 37]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+27,двух,два,NUM,nummod,"[32, 18]",[],Animacy=Anim|Case=Acc|Gender=Masc
+32,людей,человек,NOUN,obj,[18],[27],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+37,.,.,PUNCT,punct,[18],[],
+39,Спереди,спереди,ADV,ROOT,[],"[47, 103]",Degree=Pos
+47,мужчина,мужчина,NOUN,nsubj,[39],"[63, 74]",Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+55,средних,средний,ADJ,amod,"[63, 47, 39]",[],Case=Gen|Degree=Pos|Number=Plur
+63,лет,год,NOUN,nmod,"[47, 39]",[55],Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+66,",",",",PUNCT,punct,"[74, 47, 39]",[],
+68,сзади,сзади,ADV,advmod,"[74, 47, 39]",[],Degree=Pos
+74,женщина,женщина,NOUN,appos,"[47, 39]","[66, 68, 95]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+82,престарелого,престарелый,ADJ,amod,"[95, 74, 47, 39]",[],Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+95,возраста,возраст,NOUN,nmod,"[74, 47, 39]",[82],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+103,.,.,PUNCT,punct,[39],[],
+105,Мне,я,PRON,iobj,[109],[],Case=Dat|Number=Sing|Person=First
+109,кажется,казаться,VERB,ROOT,[],"[105, 138, 221]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+116,",",",",PUNCT,punct,"[138, 109]",[],
+118,что,что,SCONJ,mark,"[138, 109]",[],
+122,на,на,ADP,case,"[130, 138, 109]",[],
+125,этой,этот,DET,det,"[130, 138, 109]",[],Case=Loc|Gender=Fem|Number=Sing
+130,картине,картина,NOUN,obl,"[138, 109]","[122, 125]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+138,представлена,представить,VERB,ccomp,[109],"[116, 118, 130, 151]",Aspect=Perf|Gender=Fem|Number=Sing|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+151,ситуация,ситуация,NOUN,nsubj:pass,"[138, 109]",[167],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+159,",",",",PUNCT,punct,"[167, 151, 138, 109]",[],
+161,когда,когда,SCONJ,mark,"[167, 151, 138, 109]",[],
+167,сталкиваются,сталкиваться,VERB,acl,"[151, 138, 109]","[159, 161, 180]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+180,мнения,мнение,NOUN,nsubj,"[167, 151, 138, 109]",[192],Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+187,двух,два,NUM,nummod,"[192, 180, 167, 151, 138, 109]",[],Case=Gen
+192,поколений,поколение,NOUN,nmod,"[180, 167, 151, 138, 109]","[187, 203]",Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+201,",",",",PUNCT,punct,"[203, 192, 180, 167, 151, 138, 109]",[],
+203,молодого,молодой,ADJ,amod,"[192, 180, 167, 151, 138, 109]","[201, 214]",Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+212,и,и,CCONJ,cc,"[214, 203, 192, 180, 167, 151, 138, 109]",[],
+214,старого,старый,ADJ,conj,"[203, 192, 180, 167, 151, 138, 109]",[212],Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
+221,.,.,PUNCT,punct,[109],[],
+223,Глаза,глаз,NOUN,obj,[240],[229],Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+229,персонажей,персонаж,NOUN,nmod,"[223, 240]",[],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+240,смотрят,смотреть,VERB,ROOT,[],"[223, 257, 270, 335]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+248,в,в,ADP,case,"[257, 240]",[],
+250,разные,разный,ADJ,amod,"[257, 240]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+257,стороны,сторона,NOUN,obl,[240],"[248, 250]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+264,",",",",PUNCT,punct,"[270, 240]",[],
+266,что,что,PRON,nsubj,"[270, 240]",[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+270,может,мочь,VERB,parataxis,[240],"[264, 266, 276]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+276,показывать,показывать,VERB,xcomp,"[270, 240]",[296],Aspect=Imp|VerbForm=Inf|Voice=Act
+286,",",",",PUNCT,punct,"[296, 276, 270, 240]",[],
+288,что,что,SCONJ,mark,"[296, 276, 270, 240]",[],
+292,очи,очи,PROPN,nsubj,"[296, 276, 270, 240]",[],Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
+296,видят,видеть,VERB,ccomp,"[276, 270, 240]","[286, 288, 292, 315, 329]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+302,одну,один,DET,amod,"[315, 296, 276, 270, 240]",[309],Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
+307,и,и,CCONJ,cc,"[309, 302, 315, 296, 276, 270, 240]",[],
+309,ту,тот,DET,det,"[302, 315, 296, 276, 270, 240]","[307, 312]",Case=Acc|Gender=Fem|Number=Sing
+312,же,же,PART,advmod,"[309, 302, 315, 296, 276, 270, 240]",[],
+315,вещь,вещь,NOUN,obj,"[296, 276, 270, 240]",[302],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+320,в,в,ADP,case,"[329, 296, 276, 270, 240]",[],
+322,разных,разный,ADJ,amod,"[329, 296, 276, 270, 240]",[],Case=Loc|Degree=Pos|Number=Plur
+329,цветах,цвет,NOUN,obl,"[296, 276, 270, 240]","[320, 322]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur
+335,.,.,PUNCT,punct,[240],[],
+337,Отличие,отличие,NOUN,nsubj,[392],[345],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+345,мыслей,мысль,NOUN,nmod,"[337, 392]",[371],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+352,молодого,молодой,ADJ,amod,"[371, 345, 337, 392]",[363],Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
+361,и,и,CCONJ,cc,"[363, 352, 371, 345, 337, 392]",[],
+363,старого,старый,ADJ,conj,"[352, 371, 345, 337, 392]",[361],Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
+371,поколений,поколение,NOUN,nmod,"[345, 337, 392]",[352],Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+381,-,-,PUNCT,amod,[392],[],
+383,основная,основный,ADJ,amod,[392],[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+392,мысль,мысль,NOUN,ROOT,[],"[337, 381, 383, 403, 410]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+398,этой,этот,DET,det,"[403, 392]",[],Case=Gen|Gender=Fem|Number=Sing
+403,картины,картина,NOUN,nmod,[392],[398],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+410,.,.,PUNCT,punct,[392],[],

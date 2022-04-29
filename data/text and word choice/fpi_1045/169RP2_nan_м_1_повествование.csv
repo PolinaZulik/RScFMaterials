@@ -1,0 +1,54 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,-,-,NOUN,nsubj,[2],[],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+2,Привет,привет,NOUN,ROOT,[],"[0, 8]",Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+8,.,.,PUNCT,punct,[2],[],
+10,',',PUNCT,punct,[25],[],
+11,-Здорово,-Здорово,PUNCT,punct,[25],[],
+19,",",",",PUNCT,punct,[25],[],
+21,что,что,PRON,obj,[25],[],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+25,делаешь,делать,VERB,ROOT,[],"[10, 11, 19, 21, 32, 34, 35, 37, 40, 45, 51]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Second|Tense=Pres|VerbForm=Fin|Voice=Act
+32,?,?,PUNCT,punct,[25],[],
+34,',',PUNCT,punct,[25],[],
+35,-,-,PUNCT,advmod,[25],[],
+37,Да,да,PART,advmod,[25],[],
+40,так,так,ADV,advmod,[25],[],Degree=Pos
+43,",",",",PUNCT,punct,"[45, 25]",[],
+45,ничего,ничто,PRON,conj,[25],[43],Case=Gen
+51,.,.,PUNCT,punct,[25],[],
+53,',',PUNCT,punct,[80],[],
+54,-Как,-Как,PUNCT,punct,[80],[],
+59,последние,последний,ADJ,amod,"[69, 73, 80]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+69,две,два,NUM,nummod:gov,"[73, 80]",[59],Animacy=Inan|Case=Acc|Gender=Fem
+73,недели,неделя,NOUN,obl,[80],[69],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+80,провел,провести,VERB,ROOT,[],"[53, 54, 73, 91, 120, 126]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+86,",",",",PUNCT,punct,"[91, 80]",[],
+88,не,не,PART,advmod,"[91, 80]",[],Polarity=Neg
+91,запомнилось,запомниться,VERB,conj,[80],"[86, 88, 102]",Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+102,?,?,PUNCT,punct,"[91, 80]",[],
+104,',',PUNCT,punct,"[120, 80]",[],
+105,-Да,-Да,PUNCT,punct,"[120, 80]",[],
+109,я,я,PRON,nsubj,"[120, 80]",[],Case=Nom|Number=Sing|Person=First
+111,экзамены,экзамен,NOUN,obj,"[120, 80]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+120,сдавал,сдавать,VERB,parataxis,[80],"[104, 105, 109, 111]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+126,.,.,PUNCT,punct,[80],[],
+128,Вот,вот,PART,advmod,"[132, 138]",[],
+132,они,они,PRON,nsubj,[138],[128],Case=Nom|Number=Plur|Person=Third
+136,и,и,PART,advmod,[138],[],
+138,запомнились,запомнились,VERB,ROOT,[],"[132, 136, 149]",Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass
+149,.,.,PUNCT,punct,[138],[],
+150,',',PUNCT,punct,[163],[],
+152,-Ну,-Ну,PUNCT,punct,"[156, 163]",[],
+156,ладно,ладно,PART,parataxis,[163],"[152, 161]",
+161,",",",",PUNCT,punct,"[156, 163]",[],
+163,удачи,удача,NOUN,ROOT,[],"[150, 156, 168, 169, 170]",Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+168,!,!,PUNCT,punct,[163],[],
+169,!,!,PUNCT,punct,[163],[],
+170,!,!,PUNCT,punct,[163],[],
+171,',',PUNCT,punct,[187],[],
+173,-И,-И,PUNCT,punct,[187],[],
+176,тебе,ты,PRON,iobj,[187],[],Case=Dat|Number=Sing|Person=Second
+181,',',PUNCT,punct,[187],[],
+182,-,-,PUNCT,advmod,[187],[],
+184,не,не,PART,advmod,[187],[],Polarity=Neg
+187,болеть,болеть,VERB,ROOT,[],"[171, 173, 176, 181, 182, 184, 193]",Aspect=Imp|VerbForm=Inf|Voice=Act
+193,!,!,PUNCT,punct,[187],[],

@@ -1,0 +1,48 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Сначала,сначала,ADV,advmod,[10],[],Degree=Pos
+8,я,я,PRON,nsubj,[10],[],Case=Nom|Number=Sing|Person=First
+10,впаду,впасть,VERB,ROOT,[],"[0, 8, 18, 39, 63, 83]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+16,в,в,ADP,case,"[18, 10]",[],
+18,ступор,ступор,NOUN,obl,[10],[16],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+24,",",",",PUNCT,punct,"[39, 10]",[],
+26,затем,затем,ADV,advmod,"[39, 10]",[],Degree=Pos
+32,просто,просто,PART,advmod,"[39, 10]",[],
+39,офигею,офигею,NOUN,conj,[10],"[24, 26, 32]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+46,и,и,CCONJ,cc,"[63, 10]",[],
+47,",",",",PUNCT,punct,"[49, 63, 10]",[],
+49,думаю,думать,VERB,parataxis,"[63, 10]","[47, 54]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+54,",",",",PUNCT,punct,"[49, 63, 10]",[],
+56,час,час,NOUN,obj,"[63, 10]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+60,не,не,PART,advmod,"[63, 10]",[],Polarity=Neg
+63,смогу,смочь,VERB,conj,[10],"[46, 49, 56, 60, 69]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+69,поверить,поверить,VERB,xcomp,"[63, 10]",[80],Aspect=Perf|VerbForm=Inf|Voice=Act
+78,в,в,ADP,case,"[80, 69, 63, 10]",[],
+80,это,это,PRON,obl,"[69, 63, 10]",[78],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+83,.,.,PUNCT,punct,[10],[],
+85,В,в,ADP,discourse,[104],"[87, 94]",
+87,первую,первый,ADJ,fixed,"[85, 104]",[],Case=Acc|Gender=Fem|Number=Sing
+94,очередь,очередь,NOUN,fixed,"[85, 104]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+102,я,я,PRON,nsubj,[104],[],Case=Nom|Number=Sing|Person=First
+104,вложу,вложить,VERB,ROOT,[],"[85, 102, 114, 123, 162, 215, 223]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+110,все,весь,DET,det,"[114, 104]",[],Animacy=Inan|Case=Acc|Number=Plur
+114,деньги,деньга,NOUN,obj,[104],[110],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+121,в,в,ADP,case,"[123, 104]",[],
+123,недвижимость,недвижимость,NOUN,obl,[104],"[121, 137]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+136,(,(,PUNCT,punct,"[137, 123, 104]",[],
+137,желательно,желательный,ADJ,parataxis,"[123, 104]","[136, 151, 159]",Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short
+148,за,за,ADP,case,"[151, 137, 123, 104]",[],
+151,границей,граница,NOUN,obl,"[137, 123, 104]",[148],Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
+159,),),PUNCT,punct,"[137, 123, 104]",[],
+160,",",",",PUNCT,punct,"[162, 104]",[],
+162,куплю,купить,VERB,advcl,[104],"[160, 168, 180]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+168,машины,машина,NOUN,obj,"[162, 104]",[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+175,всем,весь,DET,det,"[180, 162, 104]",[],Case=Dat|Number=Plur
+180,членам,член,NOUN,iobj,"[162, 104]","[175, 187]",Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
+187,семьи,семья,NOUN,nmod,"[180, 162, 104]",[],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+192,",",",",PUNCT,punct,"[215, 104]",[],
+194,и,и,CCONJ,cc,"[215, 104]",[],
+196,просто,просто,PART,advmod,"[215, 104]",[],
+203,будет,будет,AUX,cop,"[215, 104]",[],Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+209,очень,очень,ADV,advmod,"[215, 104]",[],Degree=Pos
+215,радостно,радостный,ADJ,conj,[104],"[192, 194, 196, 203, 209]",Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short
+223,.,.,PUNCT,punct,[104],[],

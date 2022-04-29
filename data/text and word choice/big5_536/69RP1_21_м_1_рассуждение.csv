@@ -1,0 +1,60 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Если,если,SCONJ,mark,"[15, 65]",[],
+5,бы,бы,AUX,aux,"[15, 65]",[],Mood=Cnd
+8,у,у,ADP,case,"[10, 15, 65]",[],
+10,меня,я,PRON,obl,"[15, 65]",[8],Case=Gen|Number=Sing|Person=First
+15,появился,появиться,VERB,advcl,[65],"[0, 5, 10, 37]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
+24,один,один,NUM,nummod,"[29, 37, 15, 65]",[],Case=Nom|Gender=Masc|Number=Sing
+29,миллион,миллион,NOUN,nummod:gov,"[37, 15, 65]",[24],Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+37,долларов,доллар,NOUN,nsubj,"[15, 65]",[29],Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+45,",",",",PUNCT,punct,[65],[],
+47,первым,первый,ADJ,amod,"[54, 65]",[],Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
+54,делом,дело,NOUN,obl,[65],[47],Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
+60,я,я,PRON,nsubj,[65],[],Case=Nom|Number=Sing|Person=First
+62,бы,бы,AUX,aux,[65],[],Mood=Cnd
+65,вложил,вложить,VERB,ROOT,[],"[15, 45, 54, 60, 62, 85, 89]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+72,в,в,ADP,case,"[85, 65]",[],
+74,прибыльное,прибыльный,ADJ,amod,"[85, 65]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+85,дело,дело,NOUN,obl,[65],"[72, 74]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+89,.,.,PUNCT,punct,[65],[],
+91,После,после,ADP,case,"[97, 120]",[],
+97,увеличения,увеличение,NOUN,obl,[120],"[91, 108]",Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+108,дохода,доход,NOUN,nmod,"[97, 120]",[],Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+115,я,я,PRON,nsubj,[120],[],Case=Nom|Number=Sing|Person=First
+117,бы,бы,AUX,aux,[120],[],Mood=Cnd
+120,потратил,потратить,VERB,ROOT,[],"[97, 115, 117, 129, 139, 160, 200, 251, 317]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+129,деньги,деньга,NOUN,obj,[120],[],Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+136,на,на,ADP,case,"[139, 120]",[],
+139,благотворительность,благотворительность,NOUN,obl,[120],[136],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+158,",",",",PUNCT,punct,"[160, 120]",[],
+160,исполнил,исполнить,VERB,conj,[120],"[158, 169, 177]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+169,бы,бы,AUX,aux,"[160, 120]",[],Mood=Cnd
+172,свою,свой,DET,det,"[177, 160, 120]",[],Case=Acc|Gender=Fem|Number=Sing
+177,мечту,мечта,NOUN,obj,"[160, 120]","[172, 184]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+183,(,(,PUNCT,punct,"[184, 177, 160, 120]",[],
+184,снял,снять,VERB,parataxis,"[177, 160, 120]","[183, 189, 192, 197]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+189,бы,бы,AUX,aux,"[184, 177, 160, 120]",[],Mood=Cnd
+192,фильм,фильм,NOUN,obj,"[184, 177, 160, 120]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+197,),),PUNCT,punct,"[184, 177, 160, 120]",[],
+198,",",",",PUNCT,punct,"[200, 120]",[],
+200,увеличил,увеличить,VERB,conj,[120],"[198, 209, 212]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+209,бы,бы,AUX,aux,"[200, 120]",[],Mood=Cnd
+212,вклады,вклад,NOUN,obj,"[200, 120]",[221],Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+219,в,в,ADP,case,"[221, 212, 200, 120]",[],
+221,область,область,NOUN,nmod,"[212, 200, 120]","[219, 229]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+229,борьбы,борьба,NOUN,nmod,"[221, 212, 200, 120]",[238],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+236,с,с,ADP,case,"[238, 229, 221, 212, 200, 120]",[],
+238,наркоманией,наркомания,NOUN,nmod,"[229, 221, 212, 200, 120]",[236],Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
+249,",",",",PUNCT,punct,"[251, 120]",[],
+251,построил,построить,VERB,conj,[120],"[249, 260, 263, 283]",Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+260,бы,бы,AUX,aux,"[251, 120]",[],Mood=Cnd
+263,пару,пара,NOUN,obj,"[251, 120]",[268],Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+268,заводов,завод,NOUN,nmod,"[263, 251, 120]",[],Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+275,",",",",PUNCT,punct,"[283, 251, 120]",[],
+277,чтобы,чтобы,SCONJ,mark,"[283, 251, 120]",[],Mood=Cnd
+283,были,быть,VERB,advcl,"[251, 120]","[275, 277, 296]",Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
+288,рабочие,рабочий,ADJ,amod,"[296, 283, 251, 120]",[],Case=Nom|Degree=Pos|Number=Plur
+296,места,место,NOUN,nsubj,"[283, 251, 120]","[288, 306]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+302,для,для,ADP,case,"[306, 296, 283, 251, 120]",[],
+306,безработных,безработный,NOUN,nmod,"[296, 283, 251, 120]",[302],Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
+317,.,.,PUNCT,punct,[120],[],

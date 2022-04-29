@@ -1,0 +1,47 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Изображены,изобразить,VERB,ROOT,[],"[11, 21]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+11,мать,мать,NOUN,nsubj:pass,[0],[18],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+16,и,и,CCONJ,cc,"[18, 11, 0]",[],
+18,сын,сын,NOUN,conj,"[11, 0]",[16],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+21,.,.,PUNCT,punct,[0],[],
+23,Она,она,PRON,nsubj,[27],[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+27,провожает,провожать,VERB,ROOT,[],"[23, 37, 43, 72]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+37,его,он,PRON,obj,[27],[],Case=Acc|Gender=Masc|Number=Sing|Person=Third
+41,в,в,ADP,case,"[43, 27]",[],
+43,дорогу,дорога,NOUN,obl,[27],"[41, 67]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+50,или,или,CCONJ,cc,"[67, 43, 27]",[],
+53,",",",",PUNCT,punct,"[67, 43, 27]",[],
+55,например,например,ADV,parataxis,"[67, 43, 27]",[63],Degree=Pos
+63,",",",",PUNCT,punct,"[55, 67, 43, 27]",[],
+65,в,в,ADP,case,"[67, 43, 27]",[],
+67,армию,армия,NOUN,conj,"[43, 27]","[50, 53, 55, 65]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+72,.,.,PUNCT,punct,[27],[],
+74,Она,она,PRON,nsubj,[78],[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+78,переживает,переживать,VERB,ROOT,[],"[74, 92, 96]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+89,за,за,ADP,case,"[92, 78]",[],
+92,него,него,PRON,obl,[78],[89],Case=Acc|Gender=Masc|Number=Sing|Person=Third
+96,.,.,PUNCT,punct,[78],[],
+98,А,а,CCONJ,cc,[104],[],
+100,сын,сын,NOUN,nsubj,[104],[],Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+104,стремится,стремиться,VERB,ROOT,[],"[98, 100, 116, 147]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid
+114,и,и,CCONJ,cc,"[116, 104]",[],
+116,хочет,хотеть,VERB,conj,[104],"[114, 122]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+122,идти,идти,VERB,xcomp,"[116, 104]",[127],Aspect=Imp|VerbForm=Inf|Voice=Act
+127,туда,туда,ADV,advmod,"[122, 116, 104]",[141],Degree=Pos
+131,",",",",PUNCT,punct,"[141, 127, 122, 116, 104]",[],
+133,куда,куда,ADV,advmod,"[141, 127, 122, 116, 104]",[],Degree=Pos
+138,он,он,PRON,nsubj,"[141, 127, 122, 116, 104]",[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+141,должен,должный,ADJ,acl:relcl,"[127, 122, 116, 104]","[131, 133, 138]",Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short
+147,.,.,PUNCT,punct,[104],[],
+149,Мать,мать,NOUN,nsubj,[158],[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+154,его,он,PRON,obj,[158],[],Case=Acc|Gender=Masc|Number=Sing|Person=Third
+158,дождется,дождаться,VERB,ROOT,[],"[149, 154, 173, 198]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+166,",",",",PUNCT,punct,"[173, 158]",[],
+168,а,а,CCONJ,cc,"[173, 158]",[],
+170,он,он,PRON,nsubj,"[173, 158]",[],Case=Nom|Gender=Masc|Number=Sing|Person=Third
+173,добьется,добиться,VERB,conj,[158],"[166, 168, 170, 182]",Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Mid
+182,того,того,PRON,obj,"[173, 158]",[193],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+186,",",",",PUNCT,punct,"[193, 182, 173, 158]",[],
+188,чего,что,PRON,obj,"[193, 182, 173, 158]",[],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+193,хотел,хотеть,VERB,acl,"[182, 173, 158]","[186, 188]",Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+198,!,!,PUNCT,punct,[158],[],

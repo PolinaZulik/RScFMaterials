@@ -1,0 +1,23 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,А,а,CCONJ,cc,[5],[],
+2,не,не,PART,advmod,[5],[],Polarity=Neg
+5,скажу,сказать,VERB,ROOT,[],"[0, 2, 10]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+10,.,.,PUNCT,punct,[5],[],
+12,Это,это,PRON,nsubj,[20],[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+16,уже,уже,ADV,advmod,[20],[],Degree=Pos
+20,личное,личный,ADJ,ROOT,[],"[12, 16, 26]",Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+26,.,.,PUNCT,punct,[20],[],
+28,Куплю,куплю,VERB,ROOT,[],"[34, 76]",Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act
+34,фирму,фирма,NOUN,obj,[28],"[40, 45, 46]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+40,какую,какой,DET,det,"[34, 28]",[],Case=Acc|Gender=Fem|Number=Sing
+45,-,-,DET,det,"[34, 28]",[],Case=Acc|Gender=Fem|Number=Sing
+46,нибудь,нибудь,DET,det,"[34, 28]",[64],Case=Acc|Gender=Fem|Number=Sing
+53,и,и,CCONJ,cc,"[64, 46, 34, 28]",[],
+55,буду,буду,AUX,cop,"[64, 46, 34, 28]",[],Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+60,там,там,ADV,advmod,"[64, 46, 34, 28]",[],Degree=Pos
+64,директором,директор,NOUN,conj,"[46, 34, 28]","[53, 55, 60]",Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+74,",",",",PUNCT,punct,"[76, 28]",[],
+76,построю,построить,VERB,conj,[28],"[74, 90, 96]",Aspect=Perf|Mood=Ind|Number=Sing|Person=First|Tense=Fut|VerbForm=Fin|Voice=Act
+84,новые,новый,ADJ,amod,"[90, 76, 28]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+90,здания,здание,NOUN,obj,"[76, 28]",[84],Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
+96,!,!,PUNCT,punct,"[76, 28]",[],

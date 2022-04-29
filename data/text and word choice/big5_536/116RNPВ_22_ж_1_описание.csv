@@ -1,0 +1,33 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[3, 13]",[],
+3,картине,картина,NOUN,obl,[13],[0],Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+11,я,я,PRON,nsubj,[13],[],Case=Nom|Number=Sing|Person=First
+13,вижу,видеть,VERB,ROOT,[],"[3, 11, 18, 38, 71, 89]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+18,девушку,девушка,NOUN,obj,[13],[],Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
+26,на,на,ADP,case,"[38, 13]",[],
+29,переднем,передний,ADJ,amod,"[38, 13]",[],Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
+38,плане,план,NOUN,obl,[13],"[26, 29]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+43,",",",",PUNCT,punct,"[50, 71, 13]",[],
+45,а,а,CCONJ,cc,"[50, 71, 13]",[],
+47,на,на,ADP,case,"[50, 71, 13]",[],
+50,заднем,задний,ADJ,amod,"[71, 13]","[43, 45, 47]",Case=Loc|Degree=Pos|Gender=Neut|Number=Sing
+57,ее,её,DET,det,"[71, 13]",[],
+60,внутреннее,внутренний,ADJ,amod,"[71, 13]",[],Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+71,состояние,состояние,NOUN,obj,[13],"[50, 57, 60, 85]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+80,",",",",PUNCT,punct,"[85, 71, 13]",[],
+82,ее,её,DET,det,"[85, 71, 13]",[],
+85,душа,душа,NOUN,conj,"[71, 13]","[80, 82]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+89,.,.,PUNCT,punct,[13],[],
+91,На,на,ADP,case,[101],[],
+94,заднем,задний,ADJ,amod,[101],[],Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
+101,плане,план,NOUN,ROOT,[],"[91, 94, 118, 155]",Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+107,ее,её,DET,det,"[118, 101]",[],
+110,умершая,умереть,VERB,amod,"[118, 101]",[],Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+118,мама,мама,NOUN,nsubj,[101],"[107, 110, 148]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+122,",",",",PUNCT,punct,"[148, 118, 101]",[],
+124,которая,которая,PRON,nsubj,"[148, 118, 101]",[],Case=Nom|Gender=Fem|Number=Sing
+132,всегда,всегда,ADV,advmod,"[148, 118, 101]",[],Degree=Pos
+139,со,со,ADP,case,"[148, 118, 101]",[],
+142,своей,свой,DET,det,"[148, 118, 101]",[],Case=Ins|Gender=Fem|Number=Sing
+148,дочерью,дочь,NOUN,acl:relcl,"[118, 101]","[122, 124, 132, 139, 142]",Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+155,.,.,PUNCT,punct,[101],[],

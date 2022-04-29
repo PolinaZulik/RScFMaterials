@@ -1,0 +1,43 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,Сумасбродова,сумасбродова,PROPN,obj,[110],[13],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+13,Алла,алла,PROPN,appos,"[0, 110]",[18],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+18,Витальевна,виталиевич,PROPN,flat:name,"[13, 0, 110]",[],Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+29,Уравновешенная,уравновешенная,ADJ,amod,"[104, 110]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+44,Красивая,красивый,ADJ,amod,"[77, 104, 110]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+53,Лучезарная,лучезарный,ADJ,amod,"[77, 104, 110]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+64,Великолепная,великолепный,ADJ,amod,"[77, 104, 110]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+77,Длинноногая,длинноногий,ADJ,amod,"[104, 110]","[44, 53, 64]",Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+89,Сокрушительная,сокрушительный,ADJ,amod,"[104, 110]",[],Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+104,Я,я,PRON,nsubj,[110],"[29, 77, 89]",Case=Nom|Number=Sing|Person=First
+106,все,все,PRON,obj,[110],[],Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+110,знаю,знать,VERB,ROOT,[],"[0, 104, 106, 117, 121]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+115,и,и,CCONJ,cc,"[117, 110]",[],
+117,могу,мочь,VERB,conj,[110],[115],Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+121,!,!,PUNCT,punct,[110],[],
+123,Вышиваю,вышивать,VERB,ROOT,[],"[131, 143]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+131,крестиком,крестик,NOUN,iobj,[123],[],Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
+141,и,и,CCONJ,cc,"[143, 123]",[],
+143,готовлю,готовить,VERB,conj,[123],"[141, 151, 157]",Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act
+151,омлет,омлет,NOUN,obj,"[143, 123]",[],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+157,образование,образование,NOUN,obj,"[143, 123]","[170, 194]",Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+168,:,:,PUNCT,punct,"[170, 157, 143, 123]",[],
+170,Школа,школа,PROPN,parataxis,"[157, 143, 123]","[168, 188]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+176,благородных,благородный,ADJ,amod,"[188, 170, 157, 143, 123]",[],Case=Gen|Degree=Pos|Number=Plur
+188,девиц,девица,NOUN,nmod,"[170, 157, 143, 123]",[176],Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur
+194,опыт,опыт,NOUN,parataxis,"[157, 143, 123]",[233],Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+198,:,:,PUNCT,punct,"[233, 194, 157, 143, 123]",[],
+200,5,5,NUM,nummod,"[202, 233, 194, 157, 143, 123]",[],
+202,месяцев,месяц,NOUN,nmod,"[233, 194, 157, 143, 123]",[200],Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+210,организация,организация,NOUN,nsubj,"[233, 194, 157, 143, 123]","[222, 224]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+222, , ,SPACE,appos,"[210, 233, 194, 157, 143, 123]",[],
+223,"""","""",PUNCT,punct,"[224, 210, 233, 194, 157, 143, 123]",[],
+224,Умнички,умнички,NOUN,nmod,"[210, 233, 194, 157, 143, 123]","[223, 231]",Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+231,"""","""",PUNCT,punct,"[224, 210, 233, 194, 157, 143, 123]",[],
+233,курсы,курс,NOUN,parataxis,"[194, 157, 143, 123]","[198, 202, 210, 240]",Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+238,:,:,PUNCT,punct,"[240, 233, 194, 157, 143, 123]",[],
+240,повышение,повышение,NOUN,parataxis,"[233, 194, 157, 143, 123]","[238, 250]",Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+250,квалификации,квалификация,NOUN,nmod,"[240, 233, 194, 157, 143, 123]",[263],Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+263,ОАО,оао,NOUN,nmod,"[250, 240, 233, 194, 157, 143, 123]",[268],Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+267,"""","""",PUNCT,punct,"[268, 263, 250, 240, 233, 194, 157, 143, 123]",[],
+268,Курсы+,курсы+,PROPN,appos,"[263, 250, 240, 233, 194, 157, 143, 123]","[267, 274]",Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+274,"""","""",PUNCT,punct,"[268, 263, 250, 240, 233, 194, 157, 143, 123]",[],

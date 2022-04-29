@@ -1,0 +1,38 @@
+,Word,Lemma,POS,Dep-type,Ancestors,Dependants,Morph
+0,На,на,ADP,case,"[10, 18]",[],
+3,данной,данной,ADJ,amod,"[10, 18]",[],Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
+10,картине,картина,NOUN,obl,[18],"[0, 3]",Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+18,изображены,изобразить,VERB,ROOT,[],"[10, 33, 81]",Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass
+29,два,два,NUM,nummod:gov,"[33, 18]",[],Case=Nom|Gender=Masc
+33,человека,человек,NOUN,nsubj:pass,[18],"[29, 64]",Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+41,",",",",PUNCT,punct,"[64, 33, 18]",[],
+43,по,по,ADP,case,"[52, 64, 33, 18]",[],
+46,моему,мой,DET,det,"[52, 64, 33, 18]",[],Case=Dat|Gender=Neut|Number=Sing
+52,мнению,мнение,NOUN,parataxis,"[64, 33, 18]","[43, 46, 58]",Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing
+58,",",",",PUNCT,punct,"[52, 64, 33, 18]",[],
+60,это,это,PRON,nsubj,"[64, 33, 18]",[],Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+64,женщина,женщина,NOUN,parataxis,"[33, 18]","[41, 52, 60, 77]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+72,и,и,CCONJ,cc,"[77, 64, 33, 18]",[],
+74,ее,ее,PRON,nmod,"[77, 64, 33, 18]",[],Case=Gen|Gender=Fem|Number=Sing|Person=Third
+77,мама,мама,NOUN,conj,"[64, 33, 18]","[72, 74]",Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+81,.,.,PUNCT,punct,[18],[],
+83,Они,они,PRON,nsubj,[87],[],Case=Nom|Number=Plur|Person=Third
+87,смотрят,смотреть,VERB,ROOT,[],"[83, 104, 119, 130]",Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+95,в,в,ADP,case,"[104, 87]",[],
+97,разные,разный,ADJ,amod,"[104, 87]",[],Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur
+104,стороны,сторона,NOUN,obl,[87],"[95, 97]",Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+111,",",",",PUNCT,punct,"[119, 87]",[],
+113,будто,будто,SCONJ,mark,"[119, 87]",[],
+119,поссорились,поссориться,VERB,advcl,[87],"[111, 113]",Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid
+130,.,.,PUNCT,punct,[87],[],
+132,Картина,картина,NOUN,nsubj,[140],[],Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+140,мрачная,мрачный,ADJ,ROOT,[],"[132, 157, 190]",Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+148,и,и,CCONJ,cc,"[157, 140]",[],
+150,она,она,PRON,nsubj,"[157, 140]",[],Case=Nom|Gender=Fem|Number=Sing|Person=Third
+154,не,не,PART,advmod,"[157, 140]",[],Polarity=Neg
+157,вызывает,вызывать,VERB,conj,[140],"[148, 150, 154, 168, 184]",Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act
+166,у,у,ADP,case,"[168, 157, 140]",[],
+168,меня,я,PRON,obl,"[157, 140]",[166],Case=Gen|Number=Sing|Person=First
+173,позитивных,позитивный,ADJ,amod,"[184, 157, 140]",[],Case=Gen|Degree=Pos|Number=Plur
+184,эмоций,эмоция,NOUN,obj,"[157, 140]",[173],Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+190,.,.,PUNCT,punct,[140],[],
